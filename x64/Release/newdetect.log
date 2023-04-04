@@ -1,0 +1,1536 @@
+﻿  main.cpp
+E:\libtorch\include\c10\util\Exception.h(28,45): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“c10::Error”的基
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 参见“std::exception”的声明
+E:\libtorch\include\c10\util\Exception.h(28): message : 参见“c10::Error”的声明
+E:\libtorch\include\c10\util\Exception.h(30,19): warning C4251: “c10::Error::msg_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“c10::Error”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\c10\util\Exception.h(35,36): warning C4251: “c10::Error::context_”: class“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口由 class“c10::Error”的客户端使用
+E:\opencv\build\include\opencv2\core\persistence.hpp(417): message : 参见“std::vector<cv::String,std::allocator<cv::String>>”的声明
+E:\libtorch\include\c10\util\Exception.h(40,25): warning C4251: “c10::Error::backtrace_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“c10::Error”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\c10\util\Exception.h(47,20): warning C4251: “c10::Error::what_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“c10::Error”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\c10\util\Exception.h(48,38): warning C4251: “c10::Error::what_without_backtrace_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“c10::Error”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\c10\util\ThreadLocalDebugInfo.h(54,39): warning C4251: “c10::ThreadLocalDebugInfo::info_”: class“std::shared_ptr<c10::DebugInfoBase>”需要有 dll 接口由 class“c10::ThreadLocalDebugInfo”的客户端使用
+E:\libtorch\include\c10\util\ThreadLocalDebugInfo.h(35): message : 参见“std::shared_ptr<c10::DebugInfoBase>”的声明
+E:\libtorch\include\c10\util\ThreadLocalDebugInfo.h(56,53): warning C4251: “c10::ThreadLocalDebugInfo::parent_info_”: class“std::shared_ptr<c10::ThreadLocalDebugInfo>”需要有 dll 接口由 class“c10::ThreadLocalDebugInfo”的客户端使用
+E:\libtorch\include\c10\util\ThreadLocalDebugInfo.h(38): message : 参见“std::shared_ptr<c10::ThreadLocalDebugInfo>”的声明
+E:\libtorch\include\c10\util\ThreadLocalDebugInfo.h(82,52): warning C4251: “c10::DebugInfoGuard::prev_info_”: class“std::shared_ptr<c10::ThreadLocalDebugInfo>”需要有 dll 接口由 class“c10::DebugInfoGuard”的客户端使用
+E:\libtorch\include\c10\util\ThreadLocalDebugInfo.h(38): message : 参见“std::shared_ptr<c10::ThreadLocalDebugInfo>”的声明
+E:\libtorch\include\c10\core\Allocator.h(22,34): warning C4251: “c10::DataPtr::ptr_”: class“c10::detail::UniqueVoidPtr”需要有 dll 接口由 class“c10::DataPtr”的客户端使用
+E:\libtorch\include\c10\util\UniqueVoidPtr.h(38): message : 参见“c10::detail::UniqueVoidPtr”的声明
+E:\libtorch\include\c10\core\Allocator.h(184,57): warning C4251: “c10::InefficientStdFunctionContext::ptr_”: class“std::unique_ptr<void,std::function<void (void *)>>”需要有 dll 接口由 struct“c10::InefficientStdFunctionContext”的客户端使用
+E:\libtorch\include\c10\core\Allocator.h(184): message : 参见“std::unique_ptr<void,std::function<void (void *)>>”的声明
+E:\libtorch\include\c10\util\llvmMathExtras.h(550,40): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\libtorch\include\c10\util\llvmMathExtras.h(556,40): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\libtorch\include\c10\util\llvmMathExtras.h(563,44): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\libtorch\include\c10\util\llvmMathExtras.h(569,44): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\libtorch\include\c10\util\Half.h(378,25): warning C4244: “参数”: 从“T”转换到“float”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+E:\libtorch\include\c10\util\Half.h(378,12): warning C4244: “参数”: 从“T”转换到“float”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+E:\libtorch\include\c10\util\Half-inl.h(173,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(176,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(179,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(182,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(186,28): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(189,28): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(192,28): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(195,28): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(201,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(204,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(207,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(210,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(214,28): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(217,28): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(220,28): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\Half-inl.h(223,28): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(148,36): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(151,36): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(154,36): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(157,36): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(161,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(164,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(167,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(170,32): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(176,36): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(179,36): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(182,36): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(185,36): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(189,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(192,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(195,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\BFloat16-inl.h(198,32): warning C4244: “参数”: 从“int64_t”转换到“float”，可能丢失数据
+E:\libtorch\include\c10\util\typeid.h(68,67): warning C4251: “c10::IdWrapper<caffe2::TypeIdentifier,c10::util::type_index>::id_”: struct“c10::util::type_index”需要有 dll 接口由 class“c10::IdWrapper<caffe2::TypeIdentifier,c10::util::type_index>”的客户端使用
+E:\libtorch\include\c10\util\TypeIndex.h(57): message : 参见“c10::util::type_index”的声明
+E:\libtorch\include\c10\core\Scalar.h(137,6): warning C4251: “c10::Scalar::v”: union“c10::Scalar::v_t”需要有 dll 接口由 class“c10::Scalar”的客户端使用
+E:\libtorch\include\c10\core\Scalar.h(132): message : 参见“c10::Scalar::v_t”的声明
+E:\libtorch\include\c10\util\intrusive_ptr.h(66,40): warning C4251: “c10::intrusive_ptr_target::refcount_”: struct“std::atomic<unsigned __int64>”需要有 dll 接口由 class“c10::intrusive_ptr_target”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\atomic(2771): message : 参见“std::atomic<unsigned __int64>”的声明
+E:\libtorch\include\c10\util\intrusive_ptr.h(67,41): warning C4251: “c10::intrusive_ptr_target::weakcount_”: struct“std::atomic<unsigned __int64>”需要有 dll 接口由 class“c10::intrusive_ptr_target”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\atomic(2771): message : 参见“std::atomic<unsigned __int64>”的声明
+E:\libtorch\include\c10\core\Storage.h(151,48): warning C4251: “c10::Storage::storage_impl_”: class“c10::intrusive_ptr<c10::StorageImpl,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“c10::Storage”的客户端使用
+          with
+          [
+              TTarget=c10::StorageImpl
+          ]
+E:\libtorch\include\c10\core\Storage.h(12): message : 参见“c10::intrusive_ptr<c10::StorageImpl,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=c10::StorageImpl
+          ]
+E:\libtorch\include\c10\core\impl\LocalDispatchKeySet.h(53,27): warning C4251: “c10::impl::LocalDispatchKeySet::included_”: class“c10::DispatchKeySet”需要有 dll 接口由 struct“c10::impl::LocalDispatchKeySet”的客户端使用
+E:\libtorch\include\c10\core\DispatchKeySet.h(34): message : 参见“c10::DispatchKeySet”的声明
+E:\libtorch\include\c10\core\impl\LocalDispatchKeySet.h(54,27): warning C4251: “c10::impl::LocalDispatchKeySet::excluded_”: class“c10::DispatchKeySet”需要有 dll 接口由 struct“c10::impl::LocalDispatchKeySet”的客户端使用
+E:\libtorch\include\c10\core\DispatchKeySet.h(34): message : 参见“c10::DispatchKeySet”的声明
+E:\libtorch\include\c10\core\impl\LocalDispatchKeySet.h(77,26): warning C4251: “c10::impl::IncludeDispatchKeyGuard::include_”: class“c10::DispatchKeySet”需要有 dll 接口由 class“c10::impl::IncludeDispatchKeyGuard”的客户端使用
+E:\libtorch\include\c10\core\DispatchKeySet.h(34): message : 参见“c10::DispatchKeySet”的声明
+E:\libtorch\include\c10\core\impl\LocalDispatchKeySet.h(93,26): warning C4251: “c10::impl::ExcludeDispatchKeyGuard::exclude_”: class“c10::DispatchKeySet”需要有 dll 接口由 class“c10::impl::ExcludeDispatchKeyGuard”的客户端使用
+E:\libtorch\include\c10\core\DispatchKeySet.h(34): message : 参见“c10::DispatchKeySet”的声明
+E:\libtorch\include\c10\util\logging_is_not_google_glog.h(43,28): warning C4251: “c10::MessageLogger::stream_”: class“std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“c10::MessageLogger”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\iosfwd(222): message : 参见“std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\c10\core\TensorImpl.h(224,54): warning C4251: “c10::VariableVersion::version_counter_”: class“c10::intrusive_ptr<c10::VariableVersion::VersionCounter,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“c10::VariableVersion”的客户端使用
+          with
+          [
+              TTarget=c10::VariableVersion::VersionCounter
+          ]
+E:\libtorch\include\c10\core\TensorImpl.h(224): message : 参见“c10::intrusive_ptr<c10::VariableVersion::VersionCounter,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=c10::VariableVersion::VersionCounter
+          ]
+E:\libtorch\include\c10\core\TensorImpl.h(1614,62): warning C4251: “c10::TensorImpl::autograd_meta_”: class“std::unique_ptr<c10::AutogradMetaInterface,std::default_delete<c10::AutogradMetaInterface>>”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+E:\libtorch\include\c10\core\TensorImpl.h(152): message : 参见“std::unique_ptr<c10::AutogradMetaInterface,std::default_delete<c10::AutogradMetaInterface>>”的声明
+E:\libtorch\include\c10\core\TensorImpl.h(1617,69): warning C4251: “c10::TensorImpl::named_tensor_meta_”: class“std::unique_ptr<c10::NamedTensorMetaInterface,std::default_delete<c10::NamedTensorMetaInterface>>”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+E:\libtorch\include\c10\core\TensorImpl.h(171): message : 参见“std::unique_ptr<c10::NamedTensorMetaInterface,std::default_delete<c10::NamedTensorMetaInterface>>”的声明
+E:\libtorch\include\c10\core\TensorImpl.h(1639,32): warning C4251: “c10::TensorImpl::sizes_”: class“c10::SmallVector<int64_t,5>”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+E:\libtorch\include\c10\core\TensorImpl.h(1639): message : 参见“c10::SmallVector<int64_t,5>”的声明
+E:\libtorch\include\c10\core\TensorImpl.h(1640,34): warning C4251: “c10::TensorImpl::strides_”: class“c10::SmallVector<int64_t,5>”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+E:\libtorch\include\c10\core\TensorImpl.h(1639): message : 参见“c10::SmallVector<int64_t,5>”的声明
+E:\libtorch\include\c10\core\TensorImpl.h(1665,41): warning C4251: “c10::TensorImpl::device_opt_”: class“c10::optional<c10::Device>”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+E:\libtorch\include\c10\core\TensorOptions.h(21): message : 参见“c10::optional<c10::Device>”的声明
+E:\libtorch\include\c10\core\TensorImpl.h(1672,26): warning C4251: “c10::TensorImpl::key_set_”: class“c10::DispatchKeySet”需要有 dll 接口由 struct“c10::TensorImpl”的客户端使用
+E:\libtorch\include\c10\core\DispatchKeySet.h(34): message : 参见“c10::DispatchKeySet”的声明
+E:\libtorch\include\c10\core\TensorImpl.h(1040,30): warning C4244: “参数”: 从“float”转换到“const _Ty”，可能丢失数据
+          with
+          [
+              _Ty=uint64_t
+          ]
+E:\libtorch\include\c10\core\TensorImpl.h(1391,24): warning C4244: “初始化”: 从“int64_t”转换到“int”，可能丢失数据
+E:\libtorch\include\ATen\core\DeprecatedTypePropertiesRegistry.h(26,47): warning C4251: “at::DeprecatedTypePropertiesRegistry::registry”: class“std::unique_ptr<at::DeprecatedTypeProperties,std::default_delete<at::DeprecatedTypeProperties>>”需要有 dll 接口由 class“at::DeprecatedTypePropertiesRegistry”的客户端使用
+E:\libtorch\include\ATen\core\DeprecatedTypePropertiesRegistry.h(24): message : 参见“std::unique_ptr<at::DeprecatedTypeProperties,std::default_delete<at::DeprecatedTypeProperties>>”的声明
+E:\libtorch\include\c10\core\GeneratorImpl.h(77,20): warning C4251: “c10::GeneratorImpl::mutex_”: class“std::mutex”需要有 dll 接口由 struct“c10::GeneratorImpl”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+E:\libtorch\include\c10\core\GeneratorImpl.h(91,28): warning C4251: “c10::GeneratorImpl::key_set_”: class“c10::DispatchKeySet”需要有 dll 接口由 struct“c10::GeneratorImpl”的客户端使用
+E:\libtorch\include\c10\core\DispatchKeySet.h(34): message : 参见“c10::DispatchKeySet”的声明
+E:\libtorch\include\ATen\core\Generator.h(120,47): warning C4251: “at::Generator::impl_”: class“c10::intrusive_ptr<c10::GeneratorImpl,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“at::Generator”的客户端使用
+          with
+          [
+              TTarget=c10::GeneratorImpl
+          ]
+E:\libtorch\include\c10\core\GeneratorImpl.h(68): message : 参见“c10::intrusive_ptr<c10::GeneratorImpl,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=c10::GeneratorImpl
+          ]
+E:\libtorch\include\ATen\core\NamedTensor.h(67,30): warning C4251: “at::NamedTensorMeta::names_”: class“std::vector<at::Dimname,std::allocator<at::Dimname>>”需要有 dll 接口由 struct“at::NamedTensorMeta”的客户端使用
+E:\libtorch\include\ATen\core\NamedTensor.h(33): message : 参见“std::vector<at::Dimname,std::allocator<at::Dimname>>”的声明
+E:\libtorch\include\ATen\core\TensorBody.h(1318,60): warning C4251: “at::Tensor::impl_”: class“c10::intrusive_ptr<c10::TensorImpl,c10::UndefinedTensorImpl>”需要有 dll 接口由 class“at::Tensor”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(87): message : 参见“c10::intrusive_ptr<c10::TensorImpl,c10::UndefinedTensorImpl>”的声明
+E:\libtorch\include\ATen\CPUGeneratorImpl.h(32,22): warning C4251: “at::CPUGeneratorImpl::engine_”: class“at::mt19937_engine”需要有 dll 接口由 struct“at::CPUGeneratorImpl”的客户端使用
+E:\libtorch\include\ATen\core\MT19937RNGEngine.h(108): message : 参见“at::mt19937_engine”的声明
+E:\libtorch\include\ATen\CPUGeneratorImpl.h(33,49): warning C4251: “at::CPUGeneratorImpl::next_float_normal_sample_”: class“c10::optional<float>”需要有 dll 接口由 struct“at::CPUGeneratorImpl”的客户端使用
+E:\libtorch\include\ATen\CPUGeneratorImpl.h(23): message : 参见“c10::optional<float>”的声明
+E:\libtorch\include\ATen\CPUGeneratorImpl.h(34,51): warning C4251: “at::CPUGeneratorImpl::next_double_normal_sample_”: class“c10::optional<double>”需要有 dll 接口由 struct“at::CPUGeneratorImpl”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(831): message : 参见“c10::optional<double>”的声明
+E:\libtorch\include\c10\core\Stream.h(135,47): warning C4244: “参数”: 从“unsigned __int64”转换到“c10::DeviceIndex”，可能丢失数据
+E:\libtorch\include\c10\core\Stream.h(135,62): warning C4244: “参数”: 从“unsigned __int64”转换到“c10::StreamId”，可能丢失数据
+E:\libtorch\include\ATen\Context.h(209,26): warning C4251: “at::Context::thc_init”: struct“std::once_flag”需要有 dll 接口由 class“at::Context”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xcall_once.h(21): message : 参见“std::once_flag”的声明
+E:\libtorch\include\ATen\Context.h(210,26): warning C4251: “at::Context::thh_init”: struct“std::once_flag”需要有 dll 接口由 class“at::Context”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xcall_once.h(21): message : 参见“std::once_flag”的声明
+E:\libtorch\include\ATen\Context.h(223,47): warning C4251: “at::Context::quantized_engine”: class“c10::optional<c10::QEngine>”需要有 dll 接口由 class“at::Context”的客户端使用
+E:\libtorch\include\ATen\Context.h(223): message : 参见“c10::optional<c10::QEngine>”的声明
+E:\libtorch\include\ATen\Context.h(224,58): warning C4251: “at::Context::thc_state”: class“std::unique_ptr<THCState,void (__cdecl *)(THCState *)>”需要有 dll 接口由 class“at::Context”的客户端使用
+E:\libtorch\include\ATen\detail\CUDAHooksInterface.h(76): message : 参见“std::unique_ptr<THCState,void (__cdecl *)(THCState *)>”的声明
+E:\libtorch\include\ATen\Context.h(225,58): warning C4251: “at::Context::thh_state”: class“std::unique_ptr<THHState,void (__cdecl *)(THHState *)>”需要有 dll 接口由 class“at::Context”的客户端使用
+E:\libtorch\include\ATen\detail\HIPHooksInterface.h(33): message : 参见“std::unique_ptr<THHState,void (__cdecl *)(THHState *)>”的声明
+E:\libtorch\include\ATen\TensorGeometry.h(56,30): warning C4251: “at::TensorGeometry::sizes_”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 struct“at::TensorGeometry”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\ATen\TensorGeometry.h(57,32): warning C4251: “at::TensorGeometry::strides_”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 struct“at::TensorGeometry”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\ATen\core\ivalue.h(869,51): warning C4251: “c10::StrongTypePtr::cu_”: class“std::shared_ptr<torch::jit::CompilationUnit>”需要有 dll 接口由 struct“c10::StrongTypePtr”的客户端使用
+E:\libtorch\include\ATen\core\ivalue.h(866): message : 参见“std::shared_ptr<torch::jit::CompilationUnit>”的声明
+E:\libtorch\include\ATen\core\ivalue.h(870,30): warning C4251: “c10::StrongTypePtr::type_”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::StrongTypePtr”的客户端使用
+E:\libtorch\include\ATen\core\ivalue.h(26): message : 参见“std::shared_ptr<c10::Type>”的声明
+E:\libtorch\include\ATen\core\Dict_inl.h(41,41): warning C4244: “参数”: 从“int64_t”转换到“const _Kty”，可能丢失数据
+          with
+          [
+              _Kty=int
+          ]
+E:\libtorch\include\ATen\core\jit_type.h(80,61): warning C4251: “std::enable_shared_from_this<c10::Type>::_Wptr”: class“std::weak_ptr<_Ty>”需要有 dll 接口由 class“std::enable_shared_from_this<c10::Type>”的客户端使用
+          with
+          [
+              _Ty=c10::Type
+          ]
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\memory(2491): message : 参见“std::weak_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=c10::Type
+          ]
+E:\libtorch\include\ATen\core\jit_type.h(286,70): warning C4251: “c10::SingleElementType<c10::TypeKind::OptionalType,c10::OptionalType>::elem”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::SingleElementType<c10::TypeKind::OptionalType,c10::OptionalType>”的客户端使用
+E:\libtorch\include\ATen\core\ivalue.h(26): message : 参见“std::shared_ptr<c10::Type>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(370,38): warning C4251: “c10::Stride::stride_index_”: class“c10::optional<size_t>”需要有 dll 接口由 struct“c10::Stride”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(360): message : 参见“c10::optional<size_t>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(371,34): warning C4251: “c10::Stride::contiguous_”: class“c10::optional<bool>”需要有 dll 接口由 struct“c10::Stride”的客户端使用
+E:\libtorch\include\c10\core\TensorOptions.h(39): message : 参见“c10::optional<bool>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(372,32): warning C4251: “c10::Stride::stride_”: class“c10::optional<size_t>”需要有 dll 接口由 struct“c10::Stride”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(360): message : 参见“c10::optional<size_t>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(434,41): warning C4251: “c10::ShapeSymbol::num_symbols”: struct“std::atomic<unsigned __int64>”需要有 dll 接口由 struct“c10::ShapeSymbol”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\atomic(2771): message : 参见“std::atomic<unsigned __int64>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(525,50): warning C4251: “c10::SymbolicShape::dims_”: class“c10::optional<std::vector<c10::ShapeSymbol,std::allocator<c10::ShapeSymbol>>>”需要有 dll 接口由 struct“c10::SymbolicShape”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(499): message : 参见“c10::optional<std::vector<c10::ShapeSymbol,std::allocator<c10::ShapeSymbol>>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(833,45): warning C4251: “c10::TensorType::scalar_type_”: class“c10::optional<c10::ScalarType>”需要有 dll 接口由 struct“c10::TensorType”的客户端使用
+E:\libtorch\include\c10\core\ScalarType.h(181): message : 参见“c10::optional<c10::ScalarType>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(834,36): warning C4251: “c10::TensorType::device_”: class“c10::optional<c10::Device>”需要有 dll 接口由 struct“c10::TensorType”的客户端使用
+E:\libtorch\include\c10\core\TensorOptions.h(21): message : 参见“c10::optional<c10::Device>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(836,32): warning C4251: “c10::TensorType::strides_”: struct“c10::VaryingShape<c10::Stride>”需要有 dll 接口由 struct“c10::TensorType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(623): message : 参见“c10::VaryingShape<c10::Stride>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(837,37): warning C4251: “c10::TensorType::requires_grad_”: class“c10::optional<bool>”需要有 dll 接口由 struct“c10::TensorType”的客户端使用
+E:\libtorch\include\c10\core\TensorOptions.h(39): message : 参见“c10::optional<bool>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(849,33): warning C4251: “c10::TensorType::undefined_”: class“c10::optional<bool>”需要有 dll 接口由 struct“c10::TensorType”的客户端使用
+E:\libtorch\include\c10\core\TensorOptions.h(39): message : 参见“c10::optional<bool>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(683,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\libtorch\include\ATen\core\jit_type.h(686,1): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\libtorch\include\ATen\core\jit_type.h(857,62): warning C4251: “c10::SingleElementType<c10::TypeKind::ListType,c10::ListType>::elem”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::SingleElementType<c10::TypeKind::ListType,c10::ListType>”的客户端使用
+E:\libtorch\include\ATen\core\ivalue.h(26): message : 参见“std::shared_ptr<c10::Type>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(973,29): warning C4251: “c10::DictType::types”: class“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”需要有 dll 接口由 struct“c10::DictType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(191): message : 参见“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(981,66): warning C4251: “c10::SingleElementType<c10::TypeKind::FutureType,c10::FutureType>::elem”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::SingleElementType<c10::TypeKind::FutureType,c10::FutureType>”的客户端使用
+E:\libtorch\include\ATen\core\ivalue.h(26): message : 参见“std::shared_ptr<c10::Type>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(1023,62): warning C4251: “c10::SingleElementType<c10::TypeKind::RRefType,c10::RRefType>::elem”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::SingleElementType<c10::TypeKind::RRefType,c10::RRefType>”的客户端使用
+E:\libtorch\include\ATen\core\ivalue.h(26): message : 参见“std::shared_ptr<c10::Type>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(1073,37): warning C4251: “c10::NamedType::name_”: class“c10::optional<c10::QualifiedName>”需要有 dll 接口由 struct“c10::NamedType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(1057): message : 参见“c10::optional<c10::QualifiedName>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(1156,33): warning C4251: “c10::TupleType::elements_”: class“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”需要有 dll 接口由 struct“c10::TupleType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(191): message : 参见“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(1158,42): warning C4251: “c10::TupleType::schema_”: class“std::shared_ptr<c10::FunctionSchema>”需要有 dll 接口由 struct“c10::TupleType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(1124): message : 参见“std::shared_ptr<c10::FunctionSchema>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(1240,22): warning C4251: “c10::EnumType::value_type_”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::EnumType”的客户端使用
+E:\libtorch\include\ATen\core\ivalue.h(26): message : 参见“std::shared_ptr<c10::Type>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(1241,48): warning C4251: “c10::EnumType::enum_names_values_”: class“std::vector<c10::EnumNameValue,std::allocator<c10::EnumNameValue>>”需要有 dll 接口由 struct“c10::EnumType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(1170): message : 参见“std::vector<c10::EnumNameValue,std::allocator<c10::EnumNameValue>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(1242,51): warning C4251: “c10::EnumType::cu_”: class“std::weak_ptr<torch::jit::CompilationUnit>”需要有 dll 接口由 struct“c10::EnumType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(1170): message : 参见“std::weak_ptr<torch::jit::CompilationUnit>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(1930,25): warning C4251: “c10::ClassAttribute::attributeType_”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::ClassAttribute”的客户端使用
+E:\libtorch\include\ATen\core\ivalue.h(26): message : 参见“std::shared_ptr<c10::Type>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(1931,29): warning C4251: “c10::ClassAttribute::attributeName_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“c10::ClassAttribute”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(2255,42): warning C4251: “c10::ClassType::constantNames_”: class“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+E:\opencv\build\include\opencv2\core\persistence.hpp(417): message : 参见“std::vector<cv::String,std::allocator<cv::String>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(2256,38): warning C4251: “c10::ClassType::constantValues_”: class“std::vector<c10::IValue,std::allocator<c10::IValue>>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+E:\libtorch\include\ATen\core\List.h(24): message : 参见“std::vector<c10::IValue,std::allocator<c10::IValue>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(2258,51): warning C4251: “c10::ClassType::compilation_unit_”: class“std::weak_ptr<torch::jit::CompilationUnit>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(1170): message : 参见“std::weak_ptr<torch::jit::CompilationUnit>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(2261,42): warning C4251: “c10::ClassType::attributes_”: class“std::vector<c10::ClassAttribute,std::allocator<c10::ClassAttribute>>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(2188): message : 参见“std::vector<c10::ClassAttribute,std::allocator<c10::ClassAttribute>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(2264,39): warning C4251: “c10::ClassType::attributeTypes_”: class“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(191): message : 参见“std::vector<c10::TypePtr,std::allocator<c10::TypePtr>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(2267,46): warning C4251: “c10::ClassType::methods_”: class“std::vector<torch::jit::Function *,std::allocator<torch::jit::Function *>>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(1973): message : 参见“std::vector<torch::jit::Function *,std::allocator<torch::jit::Function *>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(2270,36): warning C4251: “c10::ClassType::properties_”: class“std::vector<c10::ClassType::Property,std::allocator<c10::ClassType::Property>>”需要有 dll 接口由 struct“c10::ClassType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(2270): message : 参见“std::vector<c10::ClassType::Property,std::allocator<c10::ClassType::Property>>”的声明
+E:\libtorch\include\ATen\core\jit_type.h(2330,56): warning C4251: “c10::InterfaceType::methods_”: class“std::shared_ptr<std::vector<c10::FunctionSchema,std::allocator<c10::FunctionSchema>>>”需要有 dll 接口由 struct“c10::InterfaceType”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(2330): message : 参见“std::shared_ptr<std::vector<c10::FunctionSchema,std::allocator<c10::FunctionSchema>>>”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(168,25): warning C4251: “c10::ivalue::ConstantString::str_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“c10::ivalue::ConstantString”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(188,32): warning C4251: “c10::ivalue::Tuple::elements_”: class“std::vector<c10::IValue,std::allocator<c10::IValue>>”需要有 dll 接口由 struct“c10::ivalue::Tuple”的客户端使用
+E:\libtorch\include\ATen\core\List.h(24): message : 参见“std::vector<c10::IValue,std::allocator<c10::IValue>>”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(189,43): warning C4251: “c10::ivalue::Tuple::type_”: class“std::shared_ptr<c10::TupleType>”需要有 dll 接口由 struct“c10::ivalue::Tuple”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(1090): message : 参见“std::shared_ptr<c10::TupleType>”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(254,63): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 struct“c10::ivalue::Future::FutureError”的基
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\vcruntime_exception.h(48): message : 参见“std::exception”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(254): message : 参见“c10::ivalue::Future::FutureError”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(264,26): warning C4251: “c10::ivalue::Future::FutureError::error_msg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“c10::ivalue::Future::FutureError”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(461,28): warning C4251: “c10::ivalue::Future::mutex_”: class“std::mutex”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(462,31): warning C4251: “c10::ivalue::Future::completed_”: struct“std::atomic<bool>”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\atomic(2759): message : 参见“std::atomic<bool>”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(463,39): warning C4251: “c10::ivalue::Future::finished_cv_”: class“std::condition_variable”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\mutex(574): message : 参见“std::condition_variable”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(466,16): warning C4251: “c10::ivalue::Future::type_”: class“std::shared_ptr<c10::Type>”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+E:\libtorch\include\ATen\core\ivalue.h(26): message : 参见“std::shared_ptr<c10::Type>”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(467,52): warning C4251: “c10::ivalue::Future::callbacks_”: class“std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+E:\libtorch\include\ATen\core\ivalue_inl.h(467): message : 参见“std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(468,27): warning C4251: “c10::ivalue::Future::eptr_”: class“std::exception_ptr”需要有 dll 接口由 struct“c10::ivalue::Future”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\exception(214): message : 参见“std::exception_ptr”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(389,36): warning C4101: “e”: 未引用的局部变量
+E:\libtorch\include\ATen\core\ivalue_inl.h(565,29): warning C4251: “c10::ivalue::Object::slots_”: class“std::vector<c10::IValue,std::allocator<c10::IValue>>”需要有 dll 接口由 struct“c10::ivalue::Object”的客户端使用
+E:\libtorch\include\ATen\core\List.h(24): message : 参见“std::vector<c10::IValue,std::allocator<c10::IValue>>”的声明
+E:\libtorch\include\ATen\core\ivalue_inl.h(648,1): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+E:\libtorch\include\ATen\core\ivalue_inl.h(650,1): warning C4244: “return”: 从“int64_t”转换到“unsigned char”，可能丢失数据
+E:\libtorch\include\ATen\core\ivalue_inl.h(651,1): warning C4244: “return”: 从“int64_t”转换到“signed char”，可能丢失数据
+E:\libtorch\include\ATen\core\ivalue_inl.h(652,1): warning C4244: “return”: 从“int64_t”转换到“unsigned short”，可能丢失数据
+E:\libtorch\include\ATen\core\ivalue_inl.h(653,1): warning C4244: “return”: 从“int64_t”转换到“short”，可能丢失数据
+E:\libtorch\include\ATen\core\ivalue_inl.h(654,1): warning C4244: “return”: 从“int64_t”转换到“int”，可能丢失数据
+E:\libtorch\include\ATen\core\ivalue_inl.h(655,1): warning C4244: “return”: 从“int64_t”转换到“uint32_t”，可能丢失数据
+E:\libtorch\include\ATen\core\ivalue_inl.h(657,1): warning C4244: “return”: 从“int64_t”转换到“c10::detail::_guarded_unsigned_long”，可能丢失数据
+E:\libtorch\include\ATen\TensorNames.h(40,28): warning C4251: “at::namedinference::TensorName::origin_”: class“c10::ArrayRef<at::Dimname>”需要有 dll 接口由 struct“at::namedinference::TensorName”的客户端使用
+E:\libtorch\include\ATen\core\Dimname.h(36): message : 参见“c10::ArrayRef<at::Dimname>”的声明
+E:\libtorch\include\ATen\TensorNames.h(70,23): warning C4251: “at::namedinference::TensorNames::names_”: class“c10::SmallVector<at::namedinference::TensorName,10>”需要有 dll 接口由 struct“at::namedinference::TensorNames”的客户端使用
+E:\libtorch\include\ATen\TensorNames.h(49): message : 参见“c10::SmallVector<at::namedinference::TensorName,10>”的声明
+E:\libtorch\include\torch\csrc\autograd\variable.h(190,20): warning C4251: “torch::autograd::AutogradMeta::name_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“torch::autograd::AutogradMeta”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\torch\csrc\autograd\variable.h(193,33): warning C4251: “torch::autograd::AutogradMeta::grad_fn_”: class“std::shared_ptr<torch::autograd::Node>”需要有 dll 接口由 struct“torch::autograd::AutogradMeta”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(1246): message : 参见“std::shared_ptr<torch::autograd::Node>”的声明
+E:\libtorch\include\torch\csrc\autograd\variable.h(194,40): warning C4251: “torch::autograd::AutogradMeta::grad_accumulator_”: class“std::weak_ptr<torch::autograd::Node>”需要有 dll 接口由 struct“torch::autograd::AutogradMeta”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\variable.h(118): message : 参见“std::weak_ptr<torch::autograd::Node>”的声明
+E:\libtorch\include\torch\csrc\autograd\variable.h(196,55): warning C4251: “torch::autograd::AutogradMeta::hooks_”: class“std::vector<std::shared_ptr<torch::autograd::FunctionPreHook>,std::allocator<std::shared_ptr<torch::autograd::FunctionPreHook>>>”需要有 dll 接口由 struct“torch::autograd::AutogradMeta”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\variable.h(174): message : 参见“std::vector<std::shared_ptr<torch::autograd::FunctionPreHook>,std::allocator<std::shared_ptr<torch::autograd::FunctionPreHook>>>”的声明
+E:\libtorch\include\torch\csrc\autograd\variable.h(197,45): warning C4251: “torch::autograd::AutogradMeta::cpp_hooks_list”: class“std::shared_ptr<torch::autograd::hooks_list>”需要有 dll 接口由 struct“torch::autograd::AutogradMeta”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\cpp_hook.h(11): message : 参见“std::shared_ptr<torch::autograd::hooks_list>”的声明
+E:\libtorch\include\torch\csrc\autograd\variable.h(216,20): warning C4251: “torch::autograd::AutogradMeta::mutex_”: class“std::mutex”需要有 dll 接口由 struct“torch::autograd::AutogradMeta”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+E:\libtorch\include\torch\csrc\autograd\variable.h(406,71): warning C4251: “torch::autograd::DifferentiableViewMeta::view_fn_”: class“c10::optional<std::function<at::Tensor (const at::Tensor &)>>”需要有 dll 接口由 struct“torch::autograd::DifferentiableViewMeta”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\variable.h(406): message : 参见“c10::optional<std::function<at::Tensor (const at::Tensor &)>>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\attributes.h(107,52): warning C4275: 非 dll 接口 struct“torch::jit::AttributeValue”用作 dll 接口 struct“torch::jit::GraphAttr”的基
+E:\libtorch\include\torch\csrc\jit\ir\attributes.h(41): message : 参见“torch::jit::AttributeValue”的声明
+E:\libtorch\include\torch\csrc\jit\ir\attributes.h(107): message : 参见“torch::jit::GraphAttr”的声明
+E:\libtorch\include\torch\csrc\jit\ir\attributes.h(121,32): warning C4251: “torch::jit::GraphAttr::value_”: class“std::shared_ptr<torch::jit::Graph>”需要有 dll 接口由 struct“torch::jit::GraphAttr”的客户端使用
+E:\libtorch\include\ATen\core\function.h(21): message : 参见“std::shared_ptr<torch::jit::Graph>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\attributes.h(124,53): warning C4275: 非 dll 接口 struct“torch::jit::AttributeValue”用作 dll 接口 struct“torch::jit::GraphsAttr”的基
+E:\libtorch\include\torch\csrc\jit\ir\attributes.h(41): message : 参见“torch::jit::AttributeValue”的声明
+E:\libtorch\include\torch\csrc\jit\ir\attributes.h(124): message : 参见“torch::jit::GraphsAttr”的声明
+E:\libtorch\include\torch\csrc\jit\ir\attributes.h(138,19): warning C4251: “torch::jit::GraphsAttr::value_”: class“std::vector<std::shared_ptr<torch::jit::Graph>,std::allocator<std::shared_ptr<torch::jit::Graph>>>”需要有 dll 接口由 struct“torch::jit::GraphsAttr”的客户端使用
+E:\libtorch\include\torch\csrc\jit\ir\attributes.h(125): message : 参见“std::vector<std::shared_ptr<torch::jit::Graph>,std::allocator<std::shared_ptr<torch::jit::Graph>>>”的声明
+E:\libtorch\include\torch\csrc\jit\frontend\source_range.h(176,34): warning C4251: “torch::jit::SourceRange::source_”: class“std::shared_ptr<torch::jit::Source>”需要有 dll 接口由 struct“torch::jit::SourceRange”的客户端使用
+E:\libtorch\include\torch\csrc\jit\frontend\source_range.h(110): message : 参见“std::shared_ptr<torch::jit::Source>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\scope.h(25,19): warning C4251: “torch::jit::Scope::parent_”: class“c10::intrusive_ptr<torch::jit::Scope,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“torch::jit::Scope”的客户端使用
+          with
+          [
+              TTarget=torch::jit::Scope
+          ]
+E:\libtorch\include\torch\csrc\jit\ir\scope.h(20): message : 参见“c10::intrusive_ptr<torch::jit::Scope,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=torch::jit::Scope
+          ]
+E:\libtorch\include\torch\csrc\jit\ir\scope.h(87,45): warning C4251: “torch::jit::InlinedCallStack::callee_”: class“c10::optional<torch::jit::InlinedCallStackPtr>”需要有 dll 接口由 struct“torch::jit::InlinedCallStack”的客户端使用
+E:\libtorch\include\torch\csrc\jit\ir\scope.h(87): message : 参见“c10::optional<torch::jit::InlinedCallStackPtr>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\constants.h(20,75): warning C4275: 非 dll 接口 class“std::runtime_error”用作 dll 接口 struct“torch::jit::constant_not_supported_error”的基
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\stdexcept(107): message : 参见“std::runtime_error”的声明
+E:\libtorch\include\torch\csrc\jit\ir\constants.h(20): message : 参见“torch::jit::constant_not_supported_error”的声明
+E:\libtorch\include\ATen\core\boxing\KernelFunction.h(231,43): warning C4251: “c10::KernelFunction::functor_”: class“std::shared_ptr<c10::OperatorKernel>”需要有 dll 接口由 class“c10::KernelFunction”的客户端使用
+E:\libtorch\include\ATen\core\boxing\KernelFunction.h(231): message : 参见“std::shared_ptr<c10::OperatorKernel>”的声明
+E:\libtorch\include\ATen\core\dispatch\DispatchKeyExtractor.h(191,51): warning C4251: “c10::DispatchKeyExtractor::dispatch_arg_indices_reverse_”: struct“c10::utils::bitset”需要有 dll 接口由 struct“c10::DispatchKeyExtractor”的客户端使用
+E:\libtorch\include\c10\util\Bitset.h(23): message : 参见“c10::utils::bitset”的声明
+E:\libtorch\include\ATen\core\dispatch\DispatchKeyExtractor.h(194,37): warning C4251: “c10::DispatchKeyExtractor::nonFallthroughKeys_”: class“c10::DispatchKeySet”需要有 dll 接口由 struct“c10::DispatchKeyExtractor”的客户端使用
+E:\libtorch\include\c10\core\DispatchKeySet.h(34): message : 参见“c10::DispatchKeySet”的声明
+E:\libtorch\include\ATen\core\dispatch\CppSignature.h(52,31): warning C4251: “c10::impl::CppSignature::signature_”: class“std::type_index”需要有 dll 接口由 class“c10::impl::CppSignature”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\typeindex(25): message : 参见“std::type_index”的声明
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(185,21): warning C4251: “c10::impl::OperatorEntry::name_”: struct“c10::OperatorName”需要有 dll 接口由 class“c10::impl::OperatorEntry”的客户端使用
+E:\libtorch\include\ATen\core\operator_name.h(14): message : 参见“c10::OperatorName”的声明
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(186,41): warning C4251: “c10::impl::OperatorEntry::schema_”: class“c10::optional<c10::impl::AnnotatedSchema>”需要有 dll 接口由 class“c10::impl::OperatorEntry”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(186): message : 参见“c10::optional<c10::impl::AnnotatedSchema>”的声明
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(195,83): warning C4251: “c10::impl::OperatorEntry::manuallyBoxedKernel_”: class“c10::optional<c10::KernelFunction::InternalBoxedKernelFunction (__cdecl *)>”需要有 dll 接口由 class“c10::impl::OperatorEntry”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(195): message : 参见“c10::optional<c10::KernelFunction::InternalBoxedKernelFunction (__cdecl *)>”的声明
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(228,71): warning C4251: “c10::impl::OperatorEntry::kernels_”: class“ska::flat_hash_map<c10::DispatchKey,std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>,std::hash<c10::DispatchKey>,std::equal_to<K>,std::allocator<std::pair<K,V>>>”需要有 dll 接口由 class“c10::impl::OperatorEntry”的客户端使用
+          with
+          [
+              K=c10::DispatchKey,
+              V=std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>
+          ]
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(228): message : 参见“ska::flat_hash_map<c10::DispatchKey,std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>,std::hash<c10::DispatchKey>,std::equal_to<K>,std::allocator<std::pair<K,V>>>”的声明
+          with
+          [
+              K=c10::DispatchKey,
+              V=std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>
+          ]
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(230,45): warning C4251: “c10::impl::OperatorEntry::catchAllKernel_”: class“std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>”需要有 dll 接口由 class“c10::impl::OperatorEntry”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(117): message : 参见“std::list<c10::impl::AnnotatedKernel,std::allocator<c10::impl::AnnotatedKernel>>”的声明
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(231,33): warning C4251: “c10::impl::OperatorEntry::missingKernel_”: struct“c10::impl::AnnotatedKernel”需要有 dll 接口由 class“c10::impl::OperatorEntry”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(31): message : 参见“c10::impl::AnnotatedKernel”的声明
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(232,61): warning C4251: “c10::impl::OperatorEntry::ambiguousAutogradOtherKernel_”: struct“c10::impl::AnnotatedKernel”需要有 dll 接口由 class“c10::impl::OperatorEntry”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(31): message : 参见“c10::impl::AnnotatedKernel”的声明
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(239,45): warning C4251: “c10::impl::OperatorEntry::cpp_signature_”: class“c10::optional<c10::impl::CppSignature>”需要有 dll 接口由 class“c10::impl::OperatorEntry”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(121): message : 参见“c10::optional<c10::impl::CppSignature>”的声明
+E:\libtorch\include\ATen\record_function.h(65,46): warning C4251: “at::StringView::owned_str_ptr_”: class“std::shared_ptr<std::string>”需要有 dll 接口由 struct“at::StringView”的客户端使用
+E:\libtorch\include\ATen\record_function.h(65): message : 参见“std::shared_ptr<std::string>”的声明
+E:\libtorch\include\ATen\record_function.h(196,45): warning C4251: “at::RecordFunction::sorted_active_tls_handles_”: class“c10::SmallVector<uint64_t,4>”需要有 dll 接口由 struct“at::RecordFunction”的客户端使用
+E:\libtorch\include\ATen\record_function.h(80): message : 参见“c10::SmallVector<uint64_t,4>”的声明
+E:\libtorch\include\ATen\record_function.h(197,48): warning C4251: “at::RecordFunction::sorted_active_global_handles_”: class“c10::SmallVector<uint64_t,4>”需要有 dll 接口由 struct“at::RecordFunction”的客户端使用
+E:\libtorch\include\ATen\record_function.h(80): message : 参见“c10::SmallVector<uint64_t,4>”的声明
+E:\libtorch\include\ATen\record_function.h(201,31): warning C4251: “at::RecordFunction::tls_ctx_”: class“std::vector<std::unique_ptr<at::ObserverContext,std::default_delete<at::ObserverContext>>,std::allocator<std::unique_ptr<at::ObserverContext,std::default_delete<at::ObserverContext>>>>”需要有 dll 接口由 struct“at::RecordFunction”的客户端使用
+E:\libtorch\include\ATen\record_function.h(81): message : 参见“std::vector<std::unique_ptr<at::ObserverContext,std::default_delete<at::ObserverContext>>,std::allocator<std::unique_ptr<at::ObserverContext,std::default_delete<at::ObserverContext>>>>”的声明
+E:\libtorch\include\ATen\record_function.h(205,34): warning C4251: “at::RecordFunction::global_ctx_”: class“std::vector<std::unique_ptr<at::ObserverContext,std::default_delete<at::ObserverContext>>,std::allocator<std::unique_ptr<at::ObserverContext,std::default_delete<at::ObserverContext>>>>”需要有 dll 接口由 struct“at::RecordFunction”的客户端使用
+E:\libtorch\include\ATen\record_function.h(81): message : 参见“std::vector<std::unique_ptr<at::ObserverContext,std::default_delete<at::ObserverContext>>,std::allocator<std::unique_ptr<at::ObserverContext,std::default_delete<at::ObserverContext>>>>”的声明
+E:\libtorch\include\ATen\record_function.h(214,35): warning C4251: “at::RecordFunction::inputs_”: class“std::vector<c10::IValue,std::allocator<c10::IValue>>”需要有 dll 接口由 struct“at::RecordFunction”的客户端使用
+E:\libtorch\include\ATen\core\List.h(24): message : 参见“std::vector<c10::IValue,std::allocator<c10::IValue>>”的声明
+E:\libtorch\include\ATen\record_function.h(339,80): warning C4251: “at::RecordFunctionCallback::start_”: class“std::function<std::unique_ptr<at::ObserverContext,std::default_delete<at::ObserverContext>> (const at::RecordFunction &)>”需要有 dll 接口由 class“at::RecordFunctionCallback”的客户端使用
+E:\libtorch\include\ATen\record_function.h(256): message : 参见“std::function<std::unique_ptr<at::ObserverContext,std::default_delete<at::ObserverContext>> (const at::RecordFunction &)>”的声明
+E:\libtorch\include\ATen\record_function.h(340,68): warning C4251: “at::RecordFunctionCallback::end_”: class“std::function<void (const at::RecordFunction &,at::ObserverContext *)>”需要有 dll 接口由 class“at::RecordFunctionCallback”的客户端使用
+E:\libtorch\include\ATen\record_function.h(257): message : 参见“std::function<void (const at::RecordFunction &,at::ObserverContext *)>”的声明
+E:\libtorch\include\ATen\record_function.h(341,65): warning C4251: “at::RecordFunctionCallback::should_run_”: class“std::function<bool (const at::RecordFunctionCallback &)>”需要有 dll 接口由 class“at::RecordFunctionCallback”的客户端使用
+E:\libtorch\include\ATen\record_function.h(306): message : 参见“std::function<bool (const at::RecordFunctionCallback &)>”的声明
+E:\libtorch\include\ATen\record_function.h(494,48): warning C4251: “at::RecordFunctionTLS::sorted_tls_callbacks_”: class“std::vector<std::pair<at::RecordFunctionCallback,at::CallbackHandle>,std::allocator<std::pair<at::RecordFunctionCallback,at::CallbackHandle>>>”需要有 dll 接口由 struct“at::RecordFunctionTLS”的客户端使用
+E:\libtorch\include\ATen\record_function.h(400): message : 参见“std::vector<std::pair<at::RecordFunctionCallback,at::CallbackHandle>,std::allocator<std::pair<at::RecordFunctionCallback,at::CallbackHandle>>>”的声明
+E:\libtorch\include\ATen\core\dispatch\Dispatcher.h(232,36): warning C4251: “c10::Dispatcher::operators_”: class“std::list<c10::Dispatcher::OperatorDef,std::allocator<c10::Dispatcher::OperatorDef>>”需要有 dll 接口由 class“c10::Dispatcher”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\Dispatcher.h(232): message : 参见“std::list<c10::Dispatcher::OperatorDef,std::allocator<c10::Dispatcher::OperatorDef>>”的声明
+E:\libtorch\include\ATen\core\dispatch\Dispatcher.h(233,83): warning C4251: “c10::Dispatcher::operatorLookupTable_”: class“c10::LeftRight<ska::flat_hash_map<c10::OperatorName,c10::OperatorHandle,std::hash<c10::OperatorName>,std::equal_to<K>,std::allocator<std::pair<K,V>>>>”需要有 dll 接口由 class“c10::Dispatcher”的客户端使用
+          with
+          [
+              K=c10::OperatorName,
+              V=c10::OperatorHandle
+          ]
+E:\libtorch\include\ATen\core\dispatch\Dispatcher.h(233): message : 参见“c10::LeftRight<ska::flat_hash_map<c10::OperatorName,c10::OperatorHandle,std::hash<c10::OperatorName>,std::equal_to<K>,std::allocator<std::pair<K,V>>>>”的声明
+          with
+          [
+              K=c10::OperatorName,
+              V=c10::OperatorHandle
+          ]
+E:\libtorch\include\ATen\core\dispatch\Dispatcher.h(235,58): warning C4251: “c10::Dispatcher::libraries_”: class“ska::flat_hash_map<std::string,std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<K,V>>>”需要有 dll 接口由 class“c10::Dispatcher”的客户端使用
+          with
+          [
+              K=std::string,
+              V=std::string
+          ]
+E:\libtorch\include\ATen\core\dispatch\Dispatcher.h(235): message : 参见“ska::flat_hash_map<std::string,std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<K,V>>>”的声明
+          with
+          [
+              K=std::string,
+              V=std::string
+          ]
+E:\libtorch\include\ATen\core\dispatch\Dispatcher.h(239,63): warning C4251: “c10::Dispatcher::listeners_”: class“std::unique_ptr<c10::detail::RegistrationListenerList,std::default_delete<c10::detail::RegistrationListenerList>>”需要有 dll 接口由 class“c10::Dispatcher”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\Dispatcher.h(239): message : 参见“std::unique_ptr<c10::detail::RegistrationListenerList,std::default_delete<c10::detail::RegistrationListenerList>>”的声明
+E:\libtorch\include\ATen\core\dispatch\Dispatcher.h(240,20): warning C4251: “c10::Dispatcher::mutex_”: class“std::mutex”需要有 dll 接口由 class“c10::Dispatcher”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+E:\libtorch\include\ATen\core\dispatch\Dispatcher.h(305,65): warning C4251: “c10::OperatorHandle::operatorIterator_”: class“std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>”需要有 dll 接口由 class“c10::OperatorHandle”的客户端使用
+          with
+          [
+              _Ty=c10::Dispatcher::OperatorDef
+          ]
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\list(796): message : 参见“std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>”的声明
+          with
+          [
+              _Ty=c10::Dispatcher::OperatorDef
+          ]
+E:\libtorch\include\ATen\core\op_registration\op_registration.h(427,75): warning C4251: “c10::RegisterOperators::Options::schemaOrName_”: class“c10::optional<c10::either<c10::OperatorName,c10::FunctionSchema>>”需要有 dll 接口由 class“c10::RegisterOperators::Options”的客户端使用
+E:\libtorch\include\ATen\core\op_registration\op_registration.h(427): message : 参见“c10::optional<c10::either<c10::OperatorName,c10::FunctionSchema>>”的声明
+E:\libtorch\include\ATen\core\op_registration\op_registration.h(429,50): warning C4251: “c10::RegisterOperators::Options::kernels”: class“std::vector<c10::RegisterOperators::Options::KernelRegistrationConfig,std::allocator<c10::RegisterOperators::Options::KernelRegistrationConfig>>”需要有 dll 接口由 class“c10::RegisterOperators::Options”的客户端使用
+E:\libtorch\include\ATen\core\op_registration\op_registration.h(429): message : 参见“std::vector<c10::RegisterOperators::Options::KernelRegistrationConfig,std::allocator<c10::RegisterOperators::Options::KernelRegistrationConfig>>”的声明
+E:\libtorch\include\ATen\core\op_registration\op_registration.h(430,51): warning C4251: “c10::RegisterOperators::Options::aliasAnalysisKind_”: class“c10::optional<c10::AliasAnalysisKind>”需要有 dll 接口由 class“c10::RegisterOperators::Options”的客户端使用
+E:\libtorch\include\ATen\core\function_schema.h(190): message : 参见“c10::optional<c10::AliasAnalysisKind>”的声明
+E:\libtorch\include\ATen\core\op_registration\op_registration.h(581,50): warning C4251: “c10::RegisterOperators::registrars_”: class“std::vector<c10::RegistrationHandleRAII,std::allocator<c10::RegistrationHandleRAII>>”需要有 dll 接口由 class“c10::RegisterOperators”的客户端使用
+E:\libtorch\include\ATen\core\op_registration\op_registration.h(581): message : 参见“std::vector<c10::RegistrationHandleRAII,std::allocator<c10::RegistrationHandleRAII>>”的声明
+E:\libtorch\include\torch\library.h(179,48): warning C4251: “torch::CppFunction::dispatch_key_”: class“c10::optional<c10::DispatchKey>”需要有 dll 接口由 class“torch::CppFunction”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(119): message : 参见“c10::optional<c10::DispatchKey>”的声明
+E:\libtorch\include\torch\library.h(181,56): warning C4251: “torch::CppFunction::cpp_signature_”: class“c10::optional<c10::impl::CppSignature>”需要有 dll 接口由 class“torch::CppFunction”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(121): message : 参见“c10::optional<c10::impl::CppSignature>”的声明
+E:\libtorch\include\torch\library.h(182,47): warning C4251: “torch::CppFunction::schema_”: class“std::unique_ptr<c10::FunctionSchema,std::default_delete<c10::FunctionSchema>>”需要有 dll 接口由 class“torch::CppFunction”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(32): message : 参见“std::unique_ptr<c10::FunctionSchema,std::default_delete<c10::FunctionSchema>>”的声明
+E:\libtorch\include\torch\library.h(183,21): warning C4251: “torch::CppFunction::debug_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“torch::CppFunction”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\torch\library.h(585,33): warning C4251: “torch::Library::ns_”: class“c10::optional<std::string>”需要有 dll 接口由 class“torch::Library”的客户端使用
+E:\libtorch\include\ATen\NativeFunctions.h(2110): message : 参见“c10::optional<std::string>”的声明
+E:\libtorch\include\torch\library.h(586,48): warning C4251: “torch::Library::dispatch_key_”: class“c10::optional<c10::DispatchKey>”需要有 dll 接口由 class“torch::Library”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(119): message : 参见“c10::optional<c10::DispatchKey>”的声明
+E:\libtorch\include\torch\library.h(590,55): warning C4251: “torch::Library::registrars_”: class“std::vector<c10::RegistrationHandleRAII,std::allocator<c10::RegistrationHandleRAII>>”需要有 dll 接口由 class“torch::Library”的客户端使用
+E:\libtorch\include\ATen\core\op_registration\op_registration.h(581): message : 参见“std::vector<c10::RegistrationHandleRAII,std::allocator<c10::RegistrationHandleRAII>>”的声明
+E:\libtorch\include\torch\csrc\jit\runtime\operator.h(195,48): warning C4251: “torch::jit::Operator::op_”: class“c10::either<torch::jit::Operator::C10Operator,torch::jit::Operator::JitOnlyOperator>”需要有 dll 接口由 struct“torch::jit::Operator”的客户端使用
+E:\libtorch\include\torch\csrc\jit\runtime\operator.h(195): message : 参见“c10::either<torch::jit::Operator::C10Operator,torch::jit::Operator::JitOnlyOperator>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(260,30): warning C4251: “torch::jit::Node::inputs_”: class“std::vector<torch::jit::Value *,std::allocator<torch::jit::Value *>>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(138): message : 参见“std::vector<torch::jit::Value *,std::allocator<torch::jit::Value *>>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(261,31): warning C4251: “torch::jit::Node::outputs_”: class“std::vector<torch::jit::Value *,std::allocator<torch::jit::Value *>>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(138): message : 参见“std::vector<torch::jit::Value *,std::allocator<torch::jit::Value *>>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(263,30): warning C4251: “torch::jit::Node::blocks_”: class“std::vector<torch::jit::Block *,std::allocator<torch::jit::Block *>>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(263): message : 参见“std::vector<torch::jit::Block *,std::allocator<torch::jit::Block *>>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(266,43): warning C4251: “torch::jit::Node::source_range_”: class“c10::optional<torch::jit::SourceRange>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+E:\libtorch\include\torch\csrc\jit\frontend\source_range.h(85): message : 参见“c10::optional<torch::jit::SourceRange>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(267,18): warning C4251: “torch::jit::Node::scope_”: class“c10::intrusive_ptr<torch::jit::Scope,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+          with
+          [
+              TTarget=torch::jit::Scope
+          ]
+E:\libtorch\include\torch\csrc\jit\ir\scope.h(20): message : 参见“c10::intrusive_ptr<torch::jit::Scope,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=torch::jit::Scope
+          ]
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(268,48): warning C4251: “torch::jit::Node::callstack_”: class“c10::optional<torch::jit::InlinedCallStackPtr>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+E:\libtorch\include\torch\csrc\jit\ir\scope.h(87): message : 参见“c10::optional<torch::jit::InlinedCallStackPtr>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(819,29): warning C4251: “torch::jit::Node::values_”: class“std::vector<torch::jit::Node::AVPtr,std::allocator<torch::jit::Node::AVPtr>>”需要有 dll 接口由 struct“torch::jit::Node”的客户端使用
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(819): message : 参见“std::vector<torch::jit::Node::AVPtr,std::allocator<torch::jit::Node::AVPtr>>”的声明
+E:\libtorch\include\torch\csrc\jit\ir\ir.h(1365,54): warning C4251: “torch::jit::ProfileOptionalOp::callback_”: class“std::function<void (torch::jit::Stack &)>”需要有 dll 接口由 struct“torch::jit::ProfileOptionalOp”的客户端使用
+E:\libtorch\include\ATen\core\builtin_function.h(13): message : 参见“std::function<void (torch::jit::Stack &)>”的声明
+E:\libtorch\include\torch\csrc\jit\runtime\argument_spec.h(200,34): warning C4251: “torch::jit::ArgumentSpecCreator::instructions_”: class“std::vector<torch::jit::ArgumentSpecCreator::Inst,std::allocator<torch::jit::ArgumentSpecCreator::Inst>>”需要有 dll 接口由 struct“torch::jit::ArgumentSpecCreator”的客户端使用
+E:\libtorch\include\torch\csrc\jit\runtime\argument_spec.h(200): message : 参见“std::vector<torch::jit::ArgumentSpecCreator::Inst,std::allocator<torch::jit::ArgumentSpecCreator::Inst>>”的声明
+E:\libtorch\include\torch\csrc\jit\runtime\argument_spec.h(236,1): warning C4267: “初始化”: 从“size_t”转换到“int32_t”，可能丢失数据
+E:\libtorch\include\torch\csrc\jit\runtime\argument_spec.h(236,1): warning C4267: “初始化”: 从“size_t”转换到“const int32_t”，可能丢失数据
+E:\libtorch\include\torch\csrc\jit\runtime\argument_spec.h(241,1): warning C4244: “+=”: 从“int64_t”转换到“int32_t”，可能丢失数据
+E:\libtorch\include\torch\csrc\jit\runtime\argument_spec.h(260,1): warning C4244: “+=”: 从“int64_t”转换到“int32_t”，可能丢失数据
+E:\libtorch\include\torch\csrc\jit\runtime\argument_spec.h(432,39): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+E:\libtorch\include\ATen\ThreadLocalState.h(31,57): warning C4251: “at::ThreadLocalState::debug_info_”: class“std::shared_ptr<c10::ThreadLocalDebugInfo>”需要有 dll 接口由 class“at::ThreadLocalState”的客户端使用
+E:\libtorch\include\c10\util\ThreadLocalDebugInfo.h(38): message : 参见“std::shared_ptr<c10::ThreadLocalDebugInfo>”的声明
+E:\libtorch\include\torch\csrc\jit\runtime\interpreter.h(63,34): warning C4251: “torch::jit::Code::pImpl”: class“std::shared_ptr<torch::jit::CodeImpl>”需要有 dll 接口由 struct“torch::jit::Code”的客户端使用
+E:\libtorch\include\torch\csrc\jit\runtime\interpreter.h(63): message : 参见“std::shared_ptr<torch::jit::CodeImpl>”的声明
+E:\libtorch\include\torch\csrc\jit\runtime\graph_executor.h(85,47): warning C4251: “torch::jit::GraphExecutor::pImpl”: class“std::shared_ptr<torch::jit::GraphExecutorImplBase>”需要有 dll 接口由 struct“torch::jit::GraphExecutor”的客户端使用
+E:\libtorch\include\torch\csrc\jit\runtime\graph_executor.h(85): message : 参见“std::shared_ptr<torch::jit::GraphExecutorImplBase>”的声明
+E:\libtorch\include\torch\csrc\jit\api\function_impl.h(115,27): warning C4251: “torch::jit::GraphFunction::name_”: struct“c10::QualifiedName”需要有 dll 接口由 struct“torch::jit::GraphFunction”的客户端使用
+E:\libtorch\include\ATen\core\qualified_name.h(11): message : 参见“c10::QualifiedName”的声明
+E:\libtorch\include\torch\csrc\jit\api\function_impl.h(117,32): warning C4251: “torch::jit::GraphFunction::graph_”: class“std::shared_ptr<torch::jit::Graph>”需要有 dll 接口由 struct“torch::jit::GraphFunction”的客户端使用
+E:\libtorch\include\ATen\core\function.h(21): message : 参见“std::shared_ptr<torch::jit::Graph>”的声明
+E:\libtorch\include\torch\csrc\jit\api\function_impl.h(122,65): warning C4251: “torch::jit::GraphFunction::optimized_graph_”: class“c10::optional<std::shared_ptr<torch::jit::Graph>>”需要有 dll 接口由 struct“torch::jit::GraphFunction”的客户端使用
+E:\libtorch\include\torch\csrc\jit\api\function_impl.h(122): message : 参见“c10::optional<std::shared_ptr<torch::jit::Graph>>”的声明
+E:\libtorch\include\torch\csrc\jit\api\function_impl.h(129,45): warning C4251: “torch::jit::GraphFunction::compile_mutex”: class“std::recursive_mutex”需要有 dll 接口由 struct“torch::jit::GraphFunction”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\mutex(96): message : 参见“std::recursive_mutex”的声明
+E:\libtorch\include\torch\csrc\jit\api\function_impl.h(136,56): warning C4251: “torch::jit::GraphFunction::function_creator_”: class“std::function<void (torch::jit::GraphFunction &)>”需要有 dll 接口由 struct“torch::jit::GraphFunction”的客户端使用
+E:\libtorch\include\torch\csrc\jit\api\function_impl.h(15): message : 参见“std::function<void (torch::jit::GraphFunction &)>”的声明
+E:\libtorch\include\torch\csrc\jit\api\function_impl.h(141,50): warning C4251: “torch::jit::GraphFunction::schema_”: class“std::unique_ptr<c10::FunctionSchema,std::default_delete<c10::FunctionSchema>>”需要有 dll 接口由 struct“torch::jit::GraphFunction”的客户端使用
+E:\libtorch\include\ATen\core\dispatch\OperatorEntry.h(32): message : 参见“std::unique_ptr<c10::FunctionSchema,std::default_delete<c10::FunctionSchema>>”的声明
+E:\libtorch\include\torch\csrc\jit\api\method.h(57,19): warning C4251: “torch::jit::Method::owner_”: class“c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“torch::jit::Method”的客户端使用
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+E:\libtorch\include\ATen\core\ivalue.h(484): message : 参见“c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+E:\libtorch\include\torch\csrc\jit\api\object.h(136,29): warning C4251: “torch::jit::Object::_ivalue_”: class“c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>>”需要有 dll 接口由 struct“torch::jit::Object”的客户端使用
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+E:\libtorch\include\ATen\core\ivalue.h(484): message : 参见“c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>>”的声明
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+E:\libtorch\include\torch\csrc\jit\frontend\tracer.h(43,57): warning C4251: “std::enable_shared_from_this<torch::jit::tracer::TracingState>::_Wptr”: class“std::weak_ptr<_Ty>”需要有 dll 接口由 class“std::enable_shared_from_this<torch::jit::tracer::TracingState>”的客户端使用
+          with
+          [
+              _Ty=torch::jit::tracer::TracingState
+          ]
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\memory(2491): message : 参见“std::weak_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=torch::jit::tracer::TracingState
+          ]
+E:\libtorch\include\torch\csrc\jit\frontend\tracer.h(47,31): warning C4251: “torch::jit::tracer::TracingState::graph”: class“std::shared_ptr<torch::jit::Graph>”需要有 dll 接口由 struct“torch::jit::tracer::TracingState”的客户端使用
+E:\libtorch\include\ATen\core\function.h(21): message : 参见“std::shared_ptr<torch::jit::Graph>”的声明
+E:\libtorch\include\torch\csrc\jit\frontend\tracer.h(52,45): warning C4251: “torch::jit::tracer::TracingState::lookup_var_name_fn”: class“std::function<std::string (const torch::autograd::Variable &)>”需要有 dll 接口由 struct“torch::jit::tracer::TracingState”的客户端使用
+E:\libtorch\include\torch\csrc\jit\frontend\tracer.h(51): message : 参见“std::function<std::string (const torch::autograd::Variable &)>”的声明
+E:\libtorch\include\torch\csrc\jit\frontend\tracer.h(85,31): warning C4251: “torch::jit::tracer::TracingState::env_stack”: class“std::vector<torch::jit::tracer::TracingState::Frame,std::allocator<torch::jit::tracer::TracingState::Frame>>”需要有 dll 接口由 struct“torch::jit::tracer::TracingState”的客户端使用
+E:\libtorch\include\torch\csrc\jit\frontend\tracer.h(85): message : 参见“std::vector<torch::jit::tracer::TracingState::Frame,std::allocator<torch::jit::tracer::TracingState::Frame>>”的声明
+E:\libtorch\include\torch\csrc\jit\frontend\tracer.h(181,38): warning C4251: “torch::jit::tracer::NoWarn::state”: class“std::shared_ptr<_Ty>”需要有 dll 接口由 struct“torch::jit::tracer::NoWarn”的客户端使用
+          with
+          [
+              _Ty=torch::jit::tracer::TracingState
+          ]
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\memory(2483): message : 参见“std::shared_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=torch::jit::tracer::TracingState
+          ]
+E:\libtorch\include\caffe2\serialize\inline_container.h(180,38): warning C4251: “caffe2::serialize::PyTorchStreamReader::ar_”: class“std::unique_ptr<mz_zip_archive,std::default_delete<mz_zip_archive>>”需要有 dll 接口由 class“caffe2::serialize::PyTorchStreamReader”的客户端使用
+E:\libtorch\include\caffe2\serialize\inline_container.h(180): message : 参见“std::unique_ptr<mz_zip_archive,std::default_delete<mz_zip_archive>>”的声明
+E:\libtorch\include\caffe2\serialize\inline_container.h(181,28): warning C4251: “caffe2::serialize::PyTorchStreamReader::archive_name_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“caffe2::serialize::PyTorchStreamReader”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\caffe2\serialize\inline_container.h(182,39): warning C4251: “caffe2::serialize::PyTorchStreamReader::archive_name_plus_slash_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“caffe2::serialize::PyTorchStreamReader”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\caffe2\serialize\inline_container.h(183,44): warning C4251: “caffe2::serialize::PyTorchStreamReader::in_”: class“std::unique_ptr<caffe2::serialize::ReadAdapterInterface,std::default_delete<caffe2::serialize::ReadAdapterInterface>>”需要有 dll 接口由 class“caffe2::serialize::PyTorchStreamReader”的客户端使用
+E:\libtorch\include\caffe2\serialize\inline_container.h(159): message : 参见“std::unique_ptr<caffe2::serialize::ReadAdapterInterface,std::default_delete<caffe2::serialize::ReadAdapterInterface>>”的声明
+E:\libtorch\include\caffe2\serialize\inline_container.h(216,38): warning C4251: “caffe2::serialize::PyTorchStreamWriter::ar_”: class“std::unique_ptr<mz_zip_archive,std::default_delete<mz_zip_archive>>”需要有 dll 接口由 class“caffe2::serialize::PyTorchStreamWriter”的客户端使用
+E:\libtorch\include\caffe2\serialize\inline_container.h(180): message : 参见“std::unique_ptr<mz_zip_archive,std::default_delete<mz_zip_archive>>”的声明
+E:\libtorch\include\caffe2\serialize\inline_container.h(217,28): warning C4251: “caffe2::serialize::PyTorchStreamWriter::archive_name_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“caffe2::serialize::PyTorchStreamWriter”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\caffe2\serialize\inline_container.h(218,39): warning C4251: “caffe2::serialize::PyTorchStreamWriter::archive_name_plus_slash_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“caffe2::serialize::PyTorchStreamWriter”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\caffe2\serialize\inline_container.h(219,23): warning C4251: “caffe2::serialize::PyTorchStreamWriter::padding_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“caffe2::serialize::PyTorchStreamWriter”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\caffe2\serialize\inline_container.h(220,29): warning C4251: “caffe2::serialize::PyTorchStreamWriter::file_stream_”: class“std::basic_ofstream<char,std::char_traits<char>>”需要有 dll 接口由 class“caffe2::serialize::PyTorchStreamWriter”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\iosfwd(225): message : 参见“std::basic_ofstream<char,std::char_traits<char>>”的声明
+E:\libtorch\include\caffe2\serialize\inline_container.h(221,58): warning C4251: “caffe2::serialize::PyTorchStreamWriter::writer_func_”: class“std::function<size_t (const void *,size_t)>”需要有 dll 接口由 class“caffe2::serialize::PyTorchStreamWriter”的客户端使用
+E:\libtorch\include\caffe2\serialize\inline_container.h(191): message : 参见“std::function<size_t (const void *,size_t)>”的声明
+E:\libtorch\include\torch\csrc\jit\api\compilation_unit.h(288,52): warning C4251: “torch::jit::CompilationUnit::functions_”: class“std::vector<std::unique_ptr<torch::jit::Function,std::default_delete<torch::jit::Function>>,std::allocator<std::unique_ptr<torch::jit::Function,std::default_delete<torch::jit::Function>>>>”需要有 dll 接口由 struct“torch::jit::CompilationUnit”的客户端使用
+E:\libtorch\include\torch\csrc\jit\api\compilation_unit.h(288): message : 参见“std::vector<std::unique_ptr<torch::jit::Function,std::default_delete<torch::jit::Function>>,std::allocator<std::unique_ptr<torch::jit::Function,std::default_delete<torch::jit::Function>>>>”的声明
+E:\libtorch\include\torch\csrc\jit\api\compilation_unit.h(290,55): warning C4251: “torch::jit::CompilationUnit::dict_”: class“std::unordered_map<c10::QualifiedName,size_t,std::hash<c10::QualifiedName>,std::equal_to<c10::QualifiedName>,std::allocator<std::pair<const c10::QualifiedName,size_t>>>”需要有 dll 接口由 struct“torch::jit::CompilationUnit”的客户端使用
+E:\libtorch\include\torch\csrc\jit\api\compilation_unit.h(290): message : 参见“std::unordered_map<c10::QualifiedName,size_t,std::hash<c10::QualifiedName>,std::equal_to<c10::QualifiedName>,std::allocator<std::pair<const c10::QualifiedName,size_t>>>”的声明
+E:\libtorch\include\torch\csrc\jit\api\compilation_unit.h(291,60): warning C4251: “torch::jit::CompilationUnit::classDict_”: class“std::unordered_map<c10::QualifiedName,size_t,std::hash<c10::QualifiedName>,std::equal_to<c10::QualifiedName>,std::allocator<std::pair<const c10::QualifiedName,size_t>>>”需要有 dll 接口由 struct“torch::jit::CompilationUnit”的客户端使用
+E:\libtorch\include\torch\csrc\jit\api\compilation_unit.h(290): message : 参见“std::unordered_map<c10::QualifiedName,size_t,std::hash<c10::QualifiedName>,std::equal_to<c10::QualifiedName>,std::allocator<std::pair<const c10::QualifiedName,size_t>>>”的声明
+E:\libtorch\include\torch\csrc\jit\api\compilation_unit.h(298,42): warning C4251: “torch::jit::CompilationUnit::classes_”: class“std::vector<c10::NamedTypePtr,std::allocator<c10::NamedTypePtr>>”需要有 dll 接口由 struct“torch::jit::CompilationUnit”的客户端使用
+E:\libtorch\include\torch\csrc\jit\api\compilation_unit.h(298): message : 参见“std::vector<c10::NamedTypePtr,std::allocator<c10::NamedTypePtr>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(225,51): warning C4251: “torch::jit::Pickler::writer_”: class“std::function<void (const char *,size_t)>”需要有 dll 接口由 class“torch::jit::Pickler”的客户端使用
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(122): message : 参见“std::function<void (const char *,size_t)>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(232,27): warning C4251: “torch::jit::Pickler::stack_”: class“std::vector<char,std::allocator<char>>”需要有 dll 接口由 class“torch::jit::Pickler”的客户端使用
+E:\opencv\build\include\opencv2\features2d.hpp(1355): message : 参见“std::vector<char,std::allocator<char>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(244,65): warning C4251: “torch::jit::Pickler::memoized_ivalue_map_”: class“std::unordered_map<const void *,uint32_t,std::hash<const void *>,std::equal_to<const void *>,std::allocator<std::pair<const void *const ,uint32_t>>>”需要有 dll 接口由 class“torch::jit::Pickler”的客户端使用
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(244): message : 参见“std::unordered_map<const void *,uint32_t,std::hash<const void *>,std::equal_to<const void *>,std::allocator<std::pair<const void *const ,uint32_t>>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(250,40): warning C4251: “torch::jit::Pickler::memoized_ivalues_”: class“std::vector<c10::IValue,std::allocator<c10::IValue>>”需要有 dll 接口由 class“torch::jit::Pickler”的客户端使用
+E:\libtorch\include\ATen\core\List.h(24): message : 参见“std::vector<c10::IValue,std::allocator<c10::IValue>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(252,76): warning C4251: “torch::jit::Pickler::type_renamer_”: class“std::function<c10::QualifiedName (const c10::ClassTypePtr &)>”需要有 dll 接口由 class“torch::jit::Pickler”的客户端使用
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(128): message : 参见“std::function<c10::QualifiedName (const c10::ClassTypePtr &)>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(259,39): warning C4251: “torch::jit::Pickler::tensor_data_”: class“std::vector<at::Tensor,std::allocator<at::Tensor>>”需要有 dll 接口由 class“torch::jit::Pickler”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(644): message : 参见“std::vector<at::Tensor,std::allocator<at::Tensor>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(260,66): warning C4251: “torch::jit::Pickler::memoized_storage_map_”: class“std::unordered_map<const void *,uint32_t,std::hash<const void *>,std::equal_to<const void *>,std::allocator<std::pair<const void *const ,uint32_t>>>”需要有 dll 接口由 class“torch::jit::Pickler”的客户端使用
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(244): message : 参见“std::unordered_map<const void *,uint32_t,std::hash<const void *>,std::equal_to<const void *>,std::allocator<std::pair<const void *const ,uint32_t>>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(262,66): warning C4251: “torch::jit::Pickler::memoized_globals_map_”: class“std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>”需要有 dll 接口由 class“torch::jit::Pickler”的客户端使用
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(262): message : 参见“std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(263,66): warning C4251: “torch::jit::Pickler::memoized_strings_map_”: class“std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>”需要有 dll 接口由 class“torch::jit::Pickler”的客户端使用
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(262): message : 参见“std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(264,66): warning C4251: “torch::jit::Pickler::memoized_devices_map_”: class“std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>”需要有 dll 接口由 class“torch::jit::Pickler”的客户端使用
+E:\libtorch\include\torch\csrc\jit\serialization\pickler.h(262): message : 参见“std::unordered_map<std::string,uint32_t,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,uint32_t>>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(114,47): warning C4251: “torch::jit::Unpickler::reader_”: class“std::function<size_t (char *,size_t)>”需要有 dll 接口由 class“torch::jit::Unpickler”的客户端使用
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(31): message : 参见“std::function<size_t (char *,size_t)>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(120,29): warning C4251: “torch::jit::Unpickler::stack_”: class“std::vector<c10::IValue,std::allocator<c10::IValue>>”需要有 dll 接口由 class“torch::jit::Unpickler”的客户端使用
+E:\libtorch\include\ATen\core\List.h(24): message : 参见“std::vector<c10::IValue,std::allocator<c10::IValue>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(124,50): warning C4251: “torch::jit::Unpickler::globals_”: class“std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>”需要有 dll 接口由 class“torch::jit::Unpickler”的客户端使用
+E:\libtorch\include\ATen\core\ivalue_inl.h(467): message : 参见“std::vector<std::function<void (void)>,std::allocator<std::function<void (void)>>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(125,34): warning C4251: “torch::jit::Unpickler::memo_table_”: class“std::vector<c10::IValue,std::allocator<c10::IValue>>”需要有 dll 接口由 class“torch::jit::Unpickler”的客户端使用
+E:\libtorch\include\ATen\core\List.h(24): message : 参见“std::vector<c10::IValue,std::allocator<c10::IValue>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(126,29): warning C4251: “torch::jit::Unpickler::marks_”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“torch::jit::Unpickler”的客户端使用
+E:\opencv\build\include\opencv2\core\mat.hpp(2686): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(133,60): warning C4251: “torch::jit::Unpickler::type_cache_”: class“std::unordered_map<std::string,c10::TypePtr,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,c10::TypePtr>>>”需要有 dll 接口由 class“torch::jit::Unpickler”的客户端使用
+E:\libtorch\include\ATen\core\jit_type.h(1862): message : 参见“std::unordered_map<std::string,c10::TypePtr,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<const std::string,c10::TypePtr>>>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(136,30): warning C4251: “torch::jit::Unpickler::type_resolver_”: class“std::function<c10::StrongTypePtr (const c10::QualifiedName &)>”需要有 dll 接口由 class“torch::jit::Unpickler”的客户端使用
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(12): message : 参见“std::function<c10::StrongTypePtr (const c10::QualifiedName &)>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(137,24): warning C4251: “torch::jit::Unpickler::obj_loader_”: class“std::function<c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>> (c10::StrongTypePtr,c10::IValue)>”需要有 dll 接口由 class“torch::jit::Unpickler”的客户端使用
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(14): message : 参见“std::function<c10::intrusive_ptr<c10::ivalue::Object,c10::detail::intrusive_target_default_null_type<TTarget>> (c10::StrongTypePtr,c10::IValue)>”的声明
+          with
+          [
+              TTarget=c10::ivalue::Object
+          ]
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(140,62): warning C4251: “torch::jit::Unpickler::read_record_”: class“std::function<c10::DataPtr (const std::string &)>”需要有 dll 接口由 class“torch::jit::Unpickler”的客户端使用
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(45): message : 参见“std::function<c10::DataPtr (const std::string &)>”的声明
+E:\libtorch\include\torch\csrc\jit\serialization\unpickler.h(141,36): warning C4251: “torch::jit::Unpickler::device_”: class“c10::optional<c10::Device>”需要有 dll 接口由 class“torch::jit::Unpickler”的客户端使用
+E:\libtorch\include\c10\core\TensorOptions.h(21): message : 参见“c10::optional<c10::Device>”的声明
+E:\libtorch\include\torch\csrc\autograd\profiler.h(338,44): warning C4251: “torch::autograd::profiler::Event::shapes_”: class“std::vector<std::vector<int64_t,std::allocator<int64_t>>,std::allocator<std::vector<int64_t,std::allocator<int64_t>>>>”需要有 dll 接口由 struct“torch::autograd::profiler::Event”的客户端使用
+E:\libtorch\include\ATen\WrapDimUtils.h(25): message : 参见“std::vector<std::vector<int64_t,std::allocator<int64_t>>,std::allocator<std::vector<int64_t,std::allocator<int64_t>>>>”的声明
+E:\libtorch\include\torch\csrc\autograd\profiler.h(342,28): warning C4251: “torch::autograd::profiler::Event::cuda_event”: class“std::shared_ptr<CUevent_st>”需要有 dll 接口由 struct“torch::autograd::profiler::Event”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\profiler.h(24): message : 参见“std::shared_ptr<CUevent_st>”的声明
+E:\libtorch\include\torch\csrc\autograd\profiler.h(348,34): warning C4251: “torch::autograd::profiler::Event::stack_”: class“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口由 struct“torch::autograd::profiler::Event”的客户端使用
+E:\opencv\build\include\opencv2\core\persistence.hpp(417): message : 参见“std::vector<cv::String,std::allocator<cv::String>>”的声明
+E:\libtorch\include\torch\csrc\autograd\profiler.h(189,17): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+E:\libtorch\include\torch\csrc\autograd\profiler.h(419,39): warning C4251: “torch::autograd::profiler::RecordProfile::file_”: class“std::unique_ptr<std::ofstream,std::default_delete<std::ofstream>>”需要有 dll 接口由 struct“torch::autograd::profiler::RecordProfile”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\profiler.h(419): message : 参见“std::unique_ptr<std::ofstream,std::default_delete<std::ofstream>>”的声明
+E:\libtorch\include\torch\csrc\autograd\profiler.h(456,68): warning C4251: “torch::autograd::profiler::TLSProfilerGuard::cb_”: class“c10::optional<std::function<void (const torch::autograd::profiler::thread_event_lists &)>>”需要有 dll 接口由 struct“torch::autograd::profiler::TLSProfilerGuard”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\profiler.h(436): message : 参见“c10::optional<std::function<void (const torch::autograd::profiler::thread_event_lists &)>>”的声明
+E:\libtorch\include\torch\csrc\autograd\profiler.h(457,70): warning C4251: “torch::autograd::profiler::TLSProfilerGuard::profilerDisableOptions_”: class“c10::optional<torch::autograd::profiler::ProfilerDisableOptions>”需要有 dll 接口由 struct“torch::autograd::profiler::TLSProfilerGuard”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\profiler.h(395): message : 参见“c10::optional<torch::autograd::profiler::ProfilerDisableOptions>”的声明
+E:\libtorch\include\torch\csrc\autograd\saved_variable.h(47,33): warning C4251: “torch::autograd::SavedVariable::grad_fn_”: class“std::shared_ptr<torch::autograd::Node>”需要有 dll 接口由 class“torch::autograd::SavedVariable”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(1246): message : 参见“std::shared_ptr<torch::autograd::Node>”的声明
+E:\libtorch\include\torch\csrc\autograd\saved_variable.h(50,36): warning C4251: “torch::autograd::SavedVariable::weak_grad_fn_”: class“std::weak_ptr<torch::autograd::Node>”需要有 dll 接口由 class“torch::autograd::SavedVariable”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\variable.h(118): message : 参见“std::weak_ptr<torch::autograd::Node>”的声明
+E:\libtorch\include\torch\csrc\autograd\saved_variable.h(51,40): warning C4251: “torch::autograd::SavedVariable::grad_accumulator_”: class“std::weak_ptr<torch::autograd::Node>”需要有 dll 接口由 class“torch::autograd::SavedVariable”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\variable.h(118): message : 参见“std::weak_ptr<torch::autograd::Node>”的声明
+E:\libtorch\include\torch\csrc\autograd\function.h(98,60): warning C4251: “std::enable_shared_from_this<torch::autograd::Node>::_Wptr”: class“std::weak_ptr<torch::autograd::Node>”需要有 dll 接口由 class“std::enable_shared_from_this<torch::autograd::Node>”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\variable.h(118): message : 参见“std::weak_ptr<torch::autograd::Node>”的声明
+E:\libtorch\include\torch\csrc\autograd\function.h(426,20): warning C4251: “torch::autograd::Node::mutex_”: class“std::mutex”需要有 dll 接口由 struct“torch::autograd::Node”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\mutex(87): message : 参见“std::mutex”的声明
+E:\libtorch\include\torch\csrc\autograd\function.h(428,24): warning C4251: “torch::autograd::Node::next_edges_”: class“std::vector<torch::autograd::Edge,std::allocator<torch::autograd::Edge>>”需要有 dll 接口由 struct“torch::autograd::Node”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\function.h(33): message : 参见“std::vector<torch::autograd::Edge,std::allocator<torch::autograd::Edge>>”的声明
+E:\libtorch\include\torch\csrc\autograd\function.h(430,54): warning C4251: “torch::autograd::Node::anomaly_metadata_”: class“std::unique_ptr<torch::autograd::AnomalyMetadata,std::default_delete<torch::autograd::AnomalyMetadata>>”需要有 dll 接口由 struct“torch::autograd::Node”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\function.h(430): message : 参见“std::unique_ptr<torch::autograd::AnomalyMetadata,std::default_delete<torch::autograd::AnomalyMetadata>>”的声明
+E:\libtorch\include\torch\csrc\autograd\function.h(431,59): warning C4251: “torch::autograd::Node::pre_hooks_”: class“std::vector<std::unique_ptr<torch::autograd::FunctionPreHook,std::default_delete<torch::autograd::FunctionPreHook>>,std::allocator<std::unique_ptr<torch::autograd::FunctionPreHook,std::default_delete<torch::autograd::FunctionPreHook>>>>”需要有 dll 接口由 struct“torch::autograd::Node”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\function.h(336): message : 参见“std::vector<std::unique_ptr<torch::autograd::FunctionPreHook,std::default_delete<torch::autograd::FunctionPreHook>>,std::allocator<std::unique_ptr<torch::autograd::FunctionPreHook,std::default_delete<torch::autograd::FunctionPreHook>>>>”的声明
+E:\libtorch\include\torch\csrc\autograd\function.h(432,61): warning C4251: “torch::autograd::Node::post_hooks_”: class“std::vector<std::unique_ptr<torch::autograd::FunctionPostHook,std::default_delete<torch::autograd::FunctionPostHook>>,std::allocator<std::unique_ptr<torch::autograd::FunctionPostHook,std::default_delete<torch::autograd::FunctionPostHook>>>>”需要有 dll 接口由 struct“torch::autograd::Node”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\function.h(312): message : 参见“std::vector<std::unique_ptr<torch::autograd::FunctionPostHook,std::default_delete<torch::autograd::FunctionPostHook>>,std::allocator<std::unique_ptr<torch::autograd::FunctionPostHook,std::default_delete<torch::autograd::FunctionPostHook>>>>”的声明
+E:\libtorch\include\torch\csrc\autograd\function.h(433,52): warning C4251: “torch::autograd::Node::input_metadata_”: class“c10::SmallVector<torch::autograd::InputMetadata,2>”需要有 dll 接口由 struct“torch::autograd::Node”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\function.h(433): message : 参见“c10::SmallVector<torch::autograd::InputMetadata,2>”的声明
+E:\libtorch\include\torch\csrc\autograd\function.h(173,1): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+E:\libtorch\include\torch\csrc\autograd\function.h(179,1): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+E:\libtorch\include\torch\csrc\autograd\function.h(186,1): warning C4267: “初始化”: 从“size_t”转换到“uint32_t”，可能丢失数据
+E:\libtorch\include\torch\csrc\autograd\function.h(192,1): warning C4267: “return”: 从“size_t”转换到“uint32_t”，可能丢失数据
+E:\libtorch\include\torch\csrc\autograd\function.h(247,1): warning C4267: “return”: 从“size_t”转换到“uint32_t”，可能丢失数据
+E:\libtorch\include\torch\csrc\autograd\custom_function.h(98,57): warning C4251: “torch::autograd::AutogradContext::saved_data”: class“ska::flat_hash_map<std::string,c10::IValue,std::hash<std::string>,std::equal_to<std::string>,std::allocator<c10::EnumNameValue>>”需要有 dll 接口由 struct“torch::autograd::AutogradContext”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\custom_function.h(98): message : 参见“ska::flat_hash_map<std::string,c10::IValue,std::hash<std::string>,std::equal_to<std::string>,std::allocator<c10::EnumNameValue>>”的声明
+E:\libtorch\include\torch\csrc\autograd\custom_function.h(122,58): warning C4251: “torch::autograd::AutogradContext::non_differentiable_”: class“std::unordered_set<c10::TensorImpl *,std::hash<c10::TensorImpl *>,std::equal_to<c10::TensorImpl *>,std::allocator<c10::TensorImpl *>>”需要有 dll 接口由 struct“torch::autograd::AutogradContext”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\custom_function.h(13): message : 参见“std::unordered_set<c10::TensorImpl *,std::hash<c10::TensorImpl *>,std::equal_to<c10::TensorImpl *>,std::allocator<c10::TensorImpl *>>”的声明
+E:\libtorch\include\torch\csrc\autograd\custom_function.h(123,52): warning C4251: “torch::autograd::AutogradContext::dirty_inputs_”: class“std::unordered_set<c10::TensorImpl *,std::hash<c10::TensorImpl *>,std::equal_to<c10::TensorImpl *>,std::allocator<c10::TensorImpl *>>”需要有 dll 接口由 struct“torch::autograd::AutogradContext”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\custom_function.h(13): message : 参见“std::unordered_set<c10::TensorImpl *,std::hash<c10::TensorImpl *>,std::equal_to<c10::TensorImpl *>,std::allocator<c10::TensorImpl *>>”的声明
+E:\libtorch\include\torch\csrc\autograd\custom_function.h(124,63): warning C4251: “torch::autograd::AutogradContext::saved_variables_”: class“std::vector<torch::autograd::SavedVariable,std::allocator<torch::autograd::SavedVariable>>”需要有 dll 接口由 struct“torch::autograd::AutogradContext”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\function.h(34): message : 参见“std::vector<torch::autograd::SavedVariable,std::allocator<torch::autograd::SavedVariable>>”的声明
+E:\libtorch\include\torch\csrc\autograd\custom_function.h(125,25): warning C4251: “torch::autograd::AutogradContext::to_save_”: class“std::vector<at::Tensor,std::allocator<at::Tensor>>”需要有 dll 接口由 struct“torch::autograd::AutogradContext”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(644): message : 参见“std::vector<at::Tensor,std::allocator<at::Tensor>>”的声明
+E:\libtorch\include\torch\csrc\autograd\custom_function.h(131,31): warning C4251: “torch::autograd::AutogradContext::grad_fn_”: class“std::weak_ptr<torch::autograd::Node>”需要有 dll 接口由 struct“torch::autograd::AutogradContext”的客户端使用
+E:\libtorch\include\torch\csrc\autograd\variable.h(118): message : 参见“std::weak_ptr<torch::autograd::Node>”的声明
+E:\libtorch\include\torch\csrc\autograd\custom_function.h(147,28): warning C4251: “torch::autograd::VariableInfo::size”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 struct“torch::autograd::VariableInfo”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\data\samplers\distributed.h(96,35): warning C4251: “torch::data::samplers::DistributedRandomSampler::all_indices_”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“torch::data::samplers::DistributedRandomSampler”的客户端使用
+E:\opencv\build\include\opencv2\core\mat.hpp(2686): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\data\samplers\distributed.h(129,35): warning C4251: “torch::data::samplers::DistributedSequentialSampler::all_indices_”: class“std::vector<size_t,std::allocator<size_t>>”需要有 dll 接口由 class“torch::data::samplers::DistributedSequentialSampler”的客户端使用
+E:\opencv\build\include\opencv2\core\mat.hpp(2686): message : 参见“std::vector<size_t,std::allocator<size_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\serialize\input-archive.h(110,32): warning C4251: “torch::serialize::InputArchive::hierarchy_prefix_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“torch::serialize::InputArchive”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\serialize\output-archive.h(76,44): warning C4251: “torch::serialize::OutputArchive::cu_”: class“std::shared_ptr<torch::jit::CompilationUnit>”需要有 dll 接口由 class“torch::serialize::OutputArchive”的客户端使用
+E:\libtorch\include\ATen\core\ivalue.h(866): message : 参见“std::shared_ptr<torch::jit::CompilationUnit>”的声明
+E:\libtorch\include\c10\util\variant.h(1589,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\libtorch\include\torch\csrc\api\include\torch\nn\module.h(64,70): warning C4251: “std::enable_shared_from_this<torch::nn::Module>::_Wptr”: class“std::weak_ptr<_Ty>”需要有 dll 接口由 class“std::enable_shared_from_this<torch::nn::Module>”的客户端使用
+          with
+          [
+              _Ty=torch::nn::Module
+          ]
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\memory(2491): message : 参见“std::weak_ptr<_Ty>”的声明
+          with
+          [
+              _Ty=torch::nn::Module
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\module.h(543,47): warning C4251: “torch::nn::Module::parameters_”: class“torch::OrderedDict<std::string,at::Tensor>”需要有 dll 接口由 class“torch::nn::Module”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\module.h(212): message : 参见“torch::OrderedDict<std::string,at::Tensor>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\module.h(591,44): warning C4251: “torch::nn::Module::buffers_”: class“torch::OrderedDict<std::string,at::Tensor>”需要有 dll 接口由 class“torch::nn::Module”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\module.h(212): message : 参见“torch::OrderedDict<std::string,at::Tensor>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\module.h(594,62): warning C4251: “torch::nn::Module::children_”: class“torch::OrderedDict<std::string,std::shared_ptr<torch::nn::Module>>”需要有 dll 接口由 class“torch::nn::Module”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\module.h(248): message : 参见“torch::OrderedDict<std::string,std::shared_ptr<torch::nn::Module>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\module.h(597,38): warning C4251: “torch::nn::Module::name_”: class“c10::optional<std::string>”需要有 dll 接口由 class“torch::nn::Module”的客户端使用
+E:\libtorch\include\ATen\NativeFunctions.h(2110): message : 参见“c10::optional<std::string>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\batchnorm.h(24,46): warning C4251: “torch::nn::BatchNormOptions::momentum_”: class“c10::optional<double>”需要有 dll 接口由 struct“torch::nn::BatchNormOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(831): message : 参见“c10::optional<double>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\batchnorm.h(81,46): warning C4251: “torch::nn::functional::BatchNormFuncOptions::momentum_”: class“c10::optional<double>”需要有 dll 接口由 struct“torch::nn::functional::BatchNormFuncOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(831): message : 参见“c10::optional<double>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(25,50): warning C4251: “torch::nn::EmbeddingOptions::padding_idx_”: class“c10::optional<int64_t>”需要有 dll 接口由 struct“torch::nn::EmbeddingOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(600): message : 参见“c10::optional<int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(27,46): warning C4251: “torch::nn::EmbeddingOptions::max_norm_”: class“c10::optional<double>”需要有 dll 接口由 struct“torch::nn::EmbeddingOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(831): message : 参见“c10::optional<double>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(46,50): warning C4251: “torch::nn::EmbeddingFromPretrainedOptions::padding_idx_”: class“c10::optional<int64_t>”需要有 dll 接口由 struct“torch::nn::EmbeddingFromPretrainedOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(600): message : 参见“c10::optional<int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(48,46): warning C4251: “torch::nn::EmbeddingFromPretrainedOptions::max_norm_”: class“c10::optional<double>”需要有 dll 接口由 struct“torch::nn::EmbeddingFromPretrainedOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(831): message : 参见“c10::optional<double>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(70,50): warning C4251: “torch::nn::functional::EmbeddingFuncOptions::padding_idx_”: class“c10::optional<int64_t>”需要有 dll 接口由 struct“torch::nn::functional::EmbeddingFuncOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(600): message : 参见“c10::optional<int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(72,46): warning C4251: “torch::nn::functional::EmbeddingFuncOptions::max_norm_”: class“c10::optional<double>”需要有 dll 接口由 struct“torch::nn::functional::EmbeddingFuncOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(831): message : 参见“c10::optional<double>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(101,46): warning C4251: “torch::nn::EmbeddingBagOptions::max_norm_”: class“c10::optional<double>”需要有 dll 接口由 struct“torch::nn::EmbeddingBagOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(831): message : 参见“c10::optional<double>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(109,37): warning C4251: “torch::nn::EmbeddingBagOptions::mode_”: class“c10::variant<torch::enumtype::kSum,torch::enumtype::kMean,torch::enumtype::kMax>”需要有 dll 接口由 struct“torch::nn::EmbeddingBagOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(85): message : 参见“c10::variant<torch::enumtype::kSum,torch::enumtype::kMean,torch::enumtype::kMax>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(128,46): warning C4251: “torch::nn::EmbeddingBagFromPretrainedOptions::max_norm_”: class“c10::optional<double>”需要有 dll 接口由 struct“torch::nn::EmbeddingBagFromPretrainedOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(831): message : 参见“c10::optional<double>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(136,37): warning C4251: “torch::nn::EmbeddingBagFromPretrainedOptions::mode_”: class“c10::variant<torch::enumtype::kSum,torch::enumtype::kMean,torch::enumtype::kMax>”需要有 dll 接口由 struct“torch::nn::EmbeddingBagFromPretrainedOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(85): message : 参见“c10::variant<torch::enumtype::kSum,torch::enumtype::kMean,torch::enumtype::kMax>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(162,46): warning C4251: “torch::nn::functional::EmbeddingBagFuncOptions::max_norm_”: class“c10::optional<double>”需要有 dll 接口由 struct“torch::nn::functional::EmbeddingBagFuncOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(831): message : 参见“c10::optional<double>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(170,37): warning C4251: “torch::nn::functional::EmbeddingBagFuncOptions::mode_”: class“c10::variant<torch::enumtype::kSum,torch::enumtype::kMean,torch::enumtype::kMax>”需要有 dll 接口由 struct“torch::nn::functional::EmbeddingBagFuncOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\embedding.h(85): message : 参见“c10::variant<torch::enumtype::kSum,torch::enumtype::kMean,torch::enumtype::kMax>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\embedding.h(43,59): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\embedding.h(43,48): warning C4244: “参数”: 从“T”转换到“float”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\embedding.h(123,59): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\embedding.h(123,48): warning C4244: “参数”: 从“T”转换到“float”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\fold.h(25,44): warning C4251: “torch::nn::FoldOptions::output_size_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::FoldOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\fold.h(28,44): warning C4251: “torch::nn::FoldOptions::kernel_size_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::FoldOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\fold.h(32,42): warning C4251: “torch::nn::FoldOptions::dilation_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::FoldOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\fold.h(36,41): warning C4251: “torch::nn::FoldOptions::padding_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::FoldOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\fold.h(39,40): warning C4251: “torch::nn::FoldOptions::stride_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::FoldOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\fold.h(69,44): warning C4251: “torch::nn::UnfoldOptions::kernel_size_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::UnfoldOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\fold.h(73,42): warning C4251: “torch::nn::UnfoldOptions::dilation_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::UnfoldOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\fold.h(77,41): warning C4251: “torch::nn::UnfoldOptions::padding_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::UnfoldOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\fold.h(80,40): warning C4251: “torch::nn::UnfoldOptions::stride_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::UnfoldOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\activation.h(223,49): warning C4251: “torch::nn::functional::SoftmaxFuncOptions::dtype_”: class“c10::optional<c10::ScalarType>”需要有 dll 接口由 struct“torch::nn::functional::SoftmaxFuncOptions”的客户端使用
+E:\libtorch\include\c10\core\ScalarType.h(181): message : 参见“c10::optional<c10::ScalarType>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\activation.h(263,49): warning C4251: “torch::nn::functional::SoftminFuncOptions::dtype_”: class“c10::optional<c10::ScalarType>”需要有 dll 接口由 struct“torch::nn::functional::SoftminFuncOptions”的客户端使用
+E:\libtorch\include\c10\core\ScalarType.h(181): message : 参见“c10::optional<c10::ScalarType>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\activation.h(303,49): warning C4251: “torch::nn::functional::LogSoftmaxFuncOptions::dtype_”: class“c10::optional<c10::ScalarType>”需要有 dll 接口由 struct“torch::nn::functional::LogSoftmaxFuncOptions”的客户端使用
+E:\libtorch\include\c10\core\ScalarType.h(181): message : 参见“c10::optional<c10::ScalarType>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\linear.h(65,34): warning C4251: “torch::nn::UnflattenOptions::dimname_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“torch::nn::UnflattenOptions”的客户端使用
+E:\vs2019\VC\Tools\MSVC\14.28.29333\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\linear.h(67,41): warning C4251: “torch::nn::UnflattenOptions::sizes_”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 struct“torch::nn::UnflattenOptions”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\linear.h(69,38): warning C4251: “torch::nn::UnflattenOptions::namedshape_”: class“std::vector<std::pair<std::string,int64_t>,std::allocator<std::pair<std::string,int64_t>>>”需要有 dll 接口由 struct“torch::nn::UnflattenOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\linear.h(56): message : 参见“std::vector<std::pair<std::string,int64_t>,std::allocator<std::pair<std::string,int64_t>>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\activation.h(643,18): warning C4244: “=”: 从“const T”转换到“int”，可能丢失数据
+          with
+          [
+              T=int64_t
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\activation.h(665,16): warning C4244: “=”: 从“const T”转换到“int”，可能丢失数据
+          with
+          [
+              T=int64_t
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\activation.h(675,26): warning C4244: “=”: 从“T”转换到“int”，可能丢失数据
+          with
+          [
+              T=int64_t
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(23,37): warning C4251: “torch::nn::L1LossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::L1LossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(55,37): warning C4251: “torch::nn::KLDivLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kBatchMean,torch::enumtype::kSum,torch::enumtype::kMean>”需要有 dll 接口由 struct“torch::nn::KLDivLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(49): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kBatchMean,torch::enumtype::kSum,torch::enumtype::kMean>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(90,37): warning C4251: “torch::nn::MSELossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::MSELossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(122,37): warning C4251: “torch::nn::BCELossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::BCELossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(154,37): warning C4251: “torch::nn::HingeEmbeddingLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::HingeEmbeddingLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(195,37): warning C4251: “torch::nn::MultiMarginLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::MultiMarginLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(228,37): warning C4251: “torch::nn::CosineEmbeddingLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::CosineEmbeddingLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(262,37): warning C4251: “torch::nn::MultiLabelMarginLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::MultiLabelMarginLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(296,37): warning C4251: “torch::nn::SoftMarginLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::SoftMarginLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(333,37): warning C4251: “torch::nn::MultiLabelSoftMarginLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::MultiLabelSoftMarginLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(372,37): warning C4251: “torch::nn::TripletMarginLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::TripletMarginLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(403,37): warning C4251: “torch::nn::CTCLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::CTCLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(441,37): warning C4251: “torch::nn::SmoothL1LossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::SmoothL1LossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(479,37): warning C4251: “torch::nn::PoissonNLLLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::PoissonNLLLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(510,37): warning C4251: “torch::nn::MarginRankingLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::MarginRankingLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(546,37): warning C4251: “torch::nn::NLLLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::NLLLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(581,37): warning C4251: “torch::nn::CrossEntropyLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::CrossEntropyLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(612,37): warning C4251: “torch::nn::BCEWithLogitsLossOptions::reduction_”: class“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”需要有 dll 接口由 struct“torch::nn::BCEWithLogitsLossOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\loss.h(18): message : 参见“c10::variant<torch::enumtype::kNone,torch::enumtype::kMean,torch::enumtype::kSum>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\normalization.h(20,52): warning C4251: “torch::nn::LayerNormOptions::normalized_shape_”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 struct“torch::nn::LayerNormOptions”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\normalization.h(43,52): warning C4251: “torch::nn::functional::LayerNormFuncOptions::normalized_shape_”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 struct“torch::nn::functional::LayerNormFuncOptions”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\normalization.h(133,41): warning C4251: “torch::nn::functional::NormalizeFuncOptions::out_”: class“c10::optional<at::Tensor>”需要有 dll 接口由 struct“torch::nn::functional::NormalizeFuncOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(561): message : 参见“c10::optional<at::Tensor>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(22,1): warning C4251: “torch::nn::ReflectionPadOptions<D>::padding_”: class“torch::ExpandingArray<D*2,int64_t>”需要有 dll 接口由 struct“torch::nn::ReflectionPadOptions<D>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(16): message : 参见“torch::ExpandingArray<D*2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(23): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReflectionPadOptions<D>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(54,1): warning C4251: “torch::nn::ReplicationPadOptions<D>::padding_”: class“torch::ExpandingArray<D*2,int64_t>”需要有 dll 接口由 struct“torch::nn::ReplicationPadOptions<D>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(16): message : 参见“torch::ExpandingArray<D*2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(55): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReplicationPadOptions<D>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(95,40): warning C4251: “torch::nn::ZeroPad2dOptions::padding_”: class“torch::ExpandingArray<4,int64_t>”需要有 dll 接口由 struct“torch::nn::ZeroPad2dOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(90): message : 参见“torch::ExpandingArray<4,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(111,1): warning C4251: “torch::nn::ConstantPadOptions<D>::padding_”: class“torch::ExpandingArray<D*2,int64_t>”需要有 dll 接口由 struct“torch::nn::ConstantPadOptions<D>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(16): message : 参见“torch::ExpandingArray<D*2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(115): message : 查看对正在编译的 类 模板 实例化“torch::nn::ConstantPadOptions<D>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(162,39): warning C4251: “torch::nn::functional::PadFuncOptions::pad_”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 struct“torch::nn::functional::PadFuncOptions”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(165,27): warning C4251: “torch::nn::functional::PadFuncOptions::mode_”: class“c10::variant<torch::enumtype::kConstant,torch::enumtype::kReflect,torch::enumtype::kReplicate,torch::enumtype::kCircular>”需要有 dll 接口由 struct“torch::nn::functional::PadFuncOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(153): message : 参见“c10::variant<torch::enumtype::kConstant,torch::enumtype::kReflect,torch::enumtype::kReplicate,torch::enumtype::kCircular>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\padding.h(14,36): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\pooling.h(963,10): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\pooling.h(964,10): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=int64_t
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(23,56): warning C4251: “torch::nn::UpsampleOptions::size_”: class“c10::optional<std::vector<int64_t,std::allocator<int64_t>>>”需要有 dll 接口由 struct“torch::nn::UpsampleOptions”的客户端使用
+E:\libtorch\include\ATen\TensorUtils.h(149): message : 参见“c10::optional<std::vector<int64_t,std::allocator<int64_t>>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(26,63): warning C4251: “torch::nn::UpsampleOptions::scale_factor_”: class“c10::optional<std::vector<_Tp,std::allocator<_Tp>>>”需要有 dll 接口由 struct“torch::nn::UpsampleOptions”的客户端使用
+          with
+          [
+              _Tp=double
+          ]
+E:\libtorch\include\ATen\core\ivalue.h(58): message : 参见“c10::optional<std::vector<_Tp,std::allocator<_Tp>>>”的声明
+          with
+          [
+              _Tp=double
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(36,27): warning C4251: “torch::nn::UpsampleOptions::mode_”: class“c10::variant<torch::enumtype::kNearest,torch::enumtype::kLinear,torch::enumtype::kBilinear,torch::enumtype::kBicubic,torch::enumtype::kTrilinear>”需要有 dll 接口由 struct“torch::nn::UpsampleOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(30): message : 参见“c10::variant<torch::enumtype::kNearest,torch::enumtype::kLinear,torch::enumtype::kBilinear,torch::enumtype::kBicubic,torch::enumtype::kTrilinear>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(42,49): warning C4251: “torch::nn::UpsampleOptions::align_corners_”: class“c10::optional<bool>”需要有 dll 接口由 struct“torch::nn::UpsampleOptions”的客户端使用
+E:\libtorch\include\c10\core\TensorOptions.h(39): message : 参见“c10::optional<bool>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(64,56): warning C4251: “torch::nn::functional::InterpolateFuncOptions::size_”: class“c10::optional<std::vector<int64_t,std::allocator<int64_t>>>”需要有 dll 接口由 struct“torch::nn::functional::InterpolateFuncOptions”的客户端使用
+E:\libtorch\include\ATen\TensorUtils.h(149): message : 参见“c10::optional<std::vector<int64_t,std::allocator<int64_t>>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(67,63): warning C4251: “torch::nn::functional::InterpolateFuncOptions::scale_factor_”: class“c10::optional<std::vector<_Tp,std::allocator<_Tp>>>”需要有 dll 接口由 struct“torch::nn::functional::InterpolateFuncOptions”的客户端使用
+          with
+          [
+              _Tp=double
+          ]
+E:\libtorch\include\ATen\core\ivalue.h(58): message : 参见“c10::optional<std::vector<_Tp,std::allocator<_Tp>>>”的声明
+          with
+          [
+              _Tp=double
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(71,27): warning C4251: “torch::nn::functional::InterpolateFuncOptions::mode_”: class“c10::variant<torch::enumtype::kNearest,torch::enumtype::kLinear,torch::enumtype::kBilinear,torch::enumtype::kBicubic,torch::enumtype::kTrilinear,torch::enumtype::kArea>”需要有 dll 接口由 struct“torch::nn::functional::InterpolateFuncOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(55): message : 参见“c10::variant<torch::enumtype::kNearest,torch::enumtype::kLinear,torch::enumtype::kBilinear,torch::enumtype::kBicubic,torch::enumtype::kTrilinear,torch::enumtype::kArea>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(82,49): warning C4251: “torch::nn::functional::InterpolateFuncOptions::align_corners_”: class“c10::optional<bool>”需要有 dll 接口由 struct“torch::nn::functional::InterpolateFuncOptions”的客户端使用
+E:\libtorch\include\c10\core\TensorOptions.h(39): message : 参见“c10::optional<bool>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\upsampling.h(93,58): warning C4251: “torch::nn::functional::InterpolateFuncOptions::recompute_scale_factor_”: class“c10::optional<bool>”需要有 dll 接口由 struct“torch::nn::functional::InterpolateFuncOptions”的客户端使用
+E:\libtorch\include\c10\core\TensorOptions.h(39): message : 参见“c10::optional<bool>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\vision.h(24,27): warning C4251: “torch::nn::functional::GridSampleFuncOptions::mode_”: class“c10::variant<torch::enumtype::kBilinear,torch::enumtype::kNearest>”需要有 dll 接口由 struct“torch::nn::functional::GridSampleFuncOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\vision.h(20): message : 参见“c10::variant<torch::enumtype::kBilinear,torch::enumtype::kNearest>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\vision.h(26,43): warning C4251: “torch::nn::functional::GridSampleFuncOptions::padding_mode_”: class“c10::variant<torch::enumtype::kZeros,torch::enumtype::kBorder,torch::enumtype::kReflection>”需要有 dll 接口由 struct“torch::nn::functional::GridSampleFuncOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\vision.h(21): message : 参见“c10::variant<torch::enumtype::kZeros,torch::enumtype::kBorder,torch::enumtype::kReflection>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\vision.h(28,49): warning C4251: “torch::nn::functional::GridSampleFuncOptions::align_corners_”: class“c10::optional<bool>”需要有 dll 接口由 struct“torch::nn::functional::GridSampleFuncOptions”的客户端使用
+E:\libtorch\include\c10\core\TensorOptions.h(39): message : 参见“c10::optional<bool>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\functional.h(94,21): warning C4251: “torch::nn::FunctionalImpl::function_”: class“std::function<at::Tensor (at::Tensor)>”需要有 dll 接口由 class“torch::nn::FunctionalImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\data\transforms\tensor.h(39): message : 参见“std::function<at::Tensor (at::Tensor)>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\adaptive.h(26,43): warning C4251: “torch::nn::AdaptiveLogSoftmaxWithLossOptions::cutoffs_”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 struct“torch::nn::AdaptiveLogSoftmaxWithLossOptions”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\adaptive.h(71,31): warning C4251: “torch::nn::AdaptiveLogSoftmaxWithLossImpl::cutoffs”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 class“torch::nn::AdaptiveLogSoftmaxWithLossImpl”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\adaptive.h(81,15): warning C4251: “torch::nn::AdaptiveLogSoftmaxWithLossImpl::head”: class“torch::nn::Linear”需要有 dll 接口由 class“torch::nn::AdaptiveLogSoftmaxWithLossImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\linear.h(83): message : 参见“torch::nn::Linear”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\adaptive.h(83,18): warning C4251: “torch::nn::AdaptiveLogSoftmaxWithLossImpl::tail”: class“torch::nn::ModuleList”需要有 dll 接口由 class“torch::nn::AdaptiveLogSoftmaxWithLossImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\modulelist.h(253): message : 参见“torch::nn::ModuleList”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(130,63): warning C4251: “torch::nn::ConvNdImpl<1,torch::nn::Conv1dImpl>::options”: struct“torch::nn::detail::ConvNdOptions<1>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<1,torch::nn::Conv1dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(24): message : 参见“torch::nn::detail::ConvNdOptions<1>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(130,63): warning C4251: “torch::nn::ConvNdImpl<1,torch::nn::Conv1dImpl>::_reversed_padding_repeated_twice”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<1,torch::nn::Conv1dImpl>”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(162,63): warning C4251: “torch::nn::ConvNdImpl<2,torch::nn::Conv2dImpl>::options”: struct“torch::nn::detail::ConvNdOptions<2>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<2,torch::nn::Conv2dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(24): message : 参见“torch::nn::detail::ConvNdOptions<2>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(162,63): warning C4251: “torch::nn::ConvNdImpl<2,torch::nn::Conv2dImpl>::_reversed_padding_repeated_twice”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<2,torch::nn::Conv2dImpl>”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(197,63): warning C4251: “torch::nn::ConvNdImpl<3,torch::nn::Conv3dImpl>::options”: struct“torch::nn::detail::ConvNdOptions<3>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<3,torch::nn::Conv3dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(24): message : 参见“torch::nn::detail::ConvNdOptions<3>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(197,63): warning C4251: “torch::nn::ConvNdImpl<3,torch::nn::Conv3dImpl>::_reversed_padding_repeated_twice”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<3,torch::nn::Conv3dImpl>”的客户端使用
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(272,90): warning C4251: “torch::nn::ConvNdImpl<1,Derived>::options”: struct“torch::nn::detail::ConvNdOptions<1>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<1,Derived>”的客户端使用
+          with
+          [
+              Derived=torch::nn::ConvTranspose1dImpl
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(24): message : 参见“torch::nn::detail::ConvNdOptions<1>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(272,90): warning C4251: “torch::nn::ConvNdImpl<1,Derived>::_reversed_padding_repeated_twice”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<1,Derived>”的客户端使用
+          with
+          [
+              Derived=torch::nn::ConvTranspose1dImpl
+          ]
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(307,90): warning C4251: “torch::nn::ConvNdImpl<2,Derived>::options”: struct“torch::nn::detail::ConvNdOptions<2>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<2,Derived>”的客户端使用
+          with
+          [
+              Derived=torch::nn::ConvTranspose2dImpl
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(24): message : 参见“torch::nn::detail::ConvNdOptions<2>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(307,90): warning C4251: “torch::nn::ConvNdImpl<2,Derived>::_reversed_padding_repeated_twice”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<2,Derived>”的客户端使用
+          with
+          [
+              Derived=torch::nn::ConvTranspose2dImpl
+          ]
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(342,90): warning C4251: “torch::nn::ConvNdImpl<3,Derived>::options”: struct“torch::nn::detail::ConvNdOptions<3>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<3,Derived>”的客户端使用
+          with
+          [
+              Derived=torch::nn::ConvTranspose3dImpl
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(24): message : 参见“torch::nn::detail::ConvNdOptions<3>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\conv.h(342,90): warning C4251: “torch::nn::ConvNdImpl<3,Derived>::_reversed_padding_repeated_twice”: class“std::vector<int64_t,std::allocator<int64_t>>”需要有 dll 接口由 class“torch::nn::ConvNdImpl<3,Derived>”的客户端使用
+          with
+          [
+              Derived=torch::nn::ConvTranspose3dImpl
+          ]
+E:\libtorch\include\c10\core\MemoryFormat.h(56): message : 参见“std::vector<int64_t,std::allocator<int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(22,1): warning C4251: “torch::nn::ReflectionPadOptions<1>::padding_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::ReflectionPadOptions<1>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(28): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReflectionPadOptions<1>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(44): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReflectionPadImpl<1,torch::nn::ReflectionPad1dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(22,1): warning C4251: “torch::nn::ReflectionPadOptions<2>::padding_”: class“torch::ExpandingArray<4,int64_t>”需要有 dll 接口由 struct“torch::nn::ReflectionPadOptions<2>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(90): message : 参见“torch::ExpandingArray<4,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(28): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReflectionPadOptions<2>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(69): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReflectionPadImpl<2,torch::nn::ReflectionPad2dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(54,1): warning C4251: “torch::nn::ReplicationPadOptions<1>::padding_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::ReplicationPadOptions<1>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(99): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReplicationPadOptions<1>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(115): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReplicationPadImpl<1,torch::nn::ReplicationPad1dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(54,1): warning C4251: “torch::nn::ReplicationPadOptions<2>::padding_”: class“torch::ExpandingArray<4,int64_t>”需要有 dll 接口由 struct“torch::nn::ReplicationPadOptions<2>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(90): message : 参见“torch::ExpandingArray<4,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(99): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReplicationPadOptions<2>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(140): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReplicationPadImpl<2,torch::nn::ReplicationPad2dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(54,1): warning C4251: “torch::nn::ReplicationPadOptions<3>::padding_”: class“torch::ExpandingArray<6,int64_t>”需要有 dll 接口由 struct“torch::nn::ReplicationPadOptions<3>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(87): message : 参见“torch::ExpandingArray<6,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(99): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReplicationPadOptions<3>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(165): message : 查看对正在编译的 类 模板 实例化“torch::nn::ReplicationPadImpl<3,torch::nn::ReplicationPad3dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(111,1): warning C4251: “torch::nn::ConstantPadOptions<1>::padding_”: class“torch::ExpandingArray<2,int64_t>”需要有 dll 接口由 struct“torch::nn::ConstantPadOptions<1>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\functional\conv.h(63): message : 参见“torch::ExpandingArray<2,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(232): message : 查看对正在编译的 类 模板 实例化“torch::nn::ConstantPadOptions<1>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(248): message : 查看对正在编译的 类 模板 实例化“torch::nn::ConstantPadImpl<1,torch::nn::ConstantPad1dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(111,1): warning C4251: “torch::nn::ConstantPadOptions<2>::padding_”: class“torch::ExpandingArray<4,int64_t>”需要有 dll 接口由 struct“torch::nn::ConstantPadOptions<2>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(90): message : 参见“torch::ExpandingArray<4,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(232): message : 查看对正在编译的 类 模板 实例化“torch::nn::ConstantPadOptions<2>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(273): message : 查看对正在编译的 类 模板 实例化“torch::nn::ConstantPadImpl<2,torch::nn::ConstantPad2dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\padding.h(111,1): warning C4251: “torch::nn::ConstantPadOptions<3>::padding_”: class“torch::ExpandingArray<6,int64_t>”需要有 dll 接口由 struct“torch::nn::ConstantPadOptions<3>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(87): message : 参见“torch::ExpandingArray<6,int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(232): message : 查看对正在编译的 类 模板 实例化“torch::nn::ConstantPadOptions<3>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\padding.h(298): message : 查看对正在编译的 类 模板 实例化“torch::nn::ConstantPadImpl<3,torch::nn::ConstantPad3dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(28,1): warning C4251: “torch::nn::AvgPoolImpl<1,torch::nn::AvgPool1dImpl>::options”: struct“torch::nn::AvgPoolOptions<1>”需要有 dll 接口由 class“torch::nn::AvgPoolImpl<1,torch::nn::AvgPool1dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(42): message : 参见“torch::nn::AvgPoolOptions<1>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(44): message : 查看对正在编译的 类 模板 实例化“torch::nn::AvgPoolImpl<1,torch::nn::AvgPool1dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(28,1): warning C4251: “torch::nn::AvgPoolImpl<2,torch::nn::AvgPool2dImpl>::options”: struct“torch::nn::AvgPoolOptions<2>”需要有 dll 接口由 class“torch::nn::AvgPoolImpl<2,torch::nn::AvgPool2dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(50): message : 参见“torch::nn::AvgPoolOptions<2>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(70): message : 查看对正在编译的 类 模板 实例化“torch::nn::AvgPoolImpl<2,torch::nn::AvgPool2dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(28,1): warning C4251: “torch::nn::AvgPoolImpl<3,torch::nn::AvgPool3dImpl>::options”: struct“torch::nn::AvgPoolOptions<3>”需要有 dll 接口由 class“torch::nn::AvgPoolImpl<3,torch::nn::AvgPool3dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(58): message : 参见“torch::nn::AvgPoolOptions<3>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(96): message : 查看对正在编译的 类 模板 实例化“torch::nn::AvgPoolImpl<3,torch::nn::AvgPool3dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(125,1): warning C4251: “torch::nn::MaxPoolImpl<1,torch::nn::MaxPool1dImpl>::options”: struct“torch::nn::MaxPoolOptions<1>”需要有 dll 接口由 class“torch::nn::MaxPoolImpl<1,torch::nn::MaxPool1dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(132): message : 参见“torch::nn::MaxPoolOptions<1>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(141): message : 查看对正在编译的 类 模板 实例化“torch::nn::MaxPoolImpl<1,torch::nn::MaxPool1dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(125,1): warning C4251: “torch::nn::MaxPoolImpl<2,torch::nn::MaxPool2dImpl>::options”: struct“torch::nn::MaxPoolOptions<2>”需要有 dll 接口由 class“torch::nn::MaxPoolImpl<2,torch::nn::MaxPool2dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(140): message : 参见“torch::nn::MaxPoolOptions<2>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(171): message : 查看对正在编译的 类 模板 实例化“torch::nn::MaxPoolImpl<2,torch::nn::MaxPool2dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(125,1): warning C4251: “torch::nn::MaxPoolImpl<3,torch::nn::MaxPool3dImpl>::options”: struct“torch::nn::MaxPoolOptions<3>”需要有 dll 接口由 class“torch::nn::MaxPoolImpl<3,torch::nn::MaxPool3dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(148): message : 参见“torch::nn::MaxPoolOptions<3>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(201): message : 查看对正在编译的 类 模板 实例化“torch::nn::MaxPoolImpl<3,torch::nn::MaxPool3dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(238,1): warning C4251: “torch::nn::AdaptiveMaxPoolImpl<D,output_size_t,Derived>::options”: struct“torch::nn::AdaptiveMaxPoolOptions<output_size_t>”需要有 dll 接口由 class“torch::nn::AdaptiveMaxPoolImpl<D,output_size_t,Derived>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(227): message : 参见“torch::nn::AdaptiveMaxPoolOptions<output_size_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(239): message : 查看对正在编译的 类 模板 实例化“torch::nn::AdaptiveMaxPoolImpl<D,output_size_t,Derived>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(238,1): warning C4251: “torch::nn::AdaptiveMaxPoolImpl<1,torch::ExpandingArray<1,int64_t>,torch::nn::AdaptiveMaxPool1dImpl>::options”: struct“torch::nn::AdaptiveMaxPoolOptions<torch::ExpandingArray<1,int64_t>>”需要有 dll 接口由 class“torch::nn::AdaptiveMaxPoolImpl<1,torch::ExpandingArray<1,int64_t>,torch::nn::AdaptiveMaxPool1dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(201): message : 参见“torch::nn::AdaptiveMaxPoolOptions<torch::ExpandingArray<1,int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(255): message : 查看对正在编译的 类 模板 实例化“torch::nn::AdaptiveMaxPoolImpl<1,torch::ExpandingArray<1,int64_t>,torch::nn::AdaptiveMaxPool1dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(238,1): warning C4251: “torch::nn::AdaptiveMaxPoolImpl<2,torch::ExpandingArrayWithOptionalElem<2,int64_t>,torch::nn::AdaptiveMaxPool2dImpl>::options”: struct“torch::nn::AdaptiveMaxPoolOptions<torch::ExpandingArrayWithOptionalElem<2,int64_t>>”需要有 dll 接口由 class“torch::nn::AdaptiveMaxPoolImpl<2,torch::ExpandingArrayWithOptionalElem<2,int64_t>,torch::nn::AdaptiveMaxPool2dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(209): message : 参见“torch::nn::AdaptiveMaxPoolOptions<torch::ExpandingArrayWithOptionalElem<2,int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(287): message : 查看对正在编译的 类 模板 实例化“torch::nn::AdaptiveMaxPoolImpl<2,torch::ExpandingArrayWithOptionalElem<2,int64_t>,torch::nn::AdaptiveMaxPool2dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(238,1): warning C4251: “torch::nn::AdaptiveMaxPoolImpl<3,torch::ExpandingArrayWithOptionalElem<3,int64_t>,torch::nn::AdaptiveMaxPool3dImpl>::options”: struct“torch::nn::AdaptiveMaxPoolOptions<torch::ExpandingArrayWithOptionalElem<3,int64_t>>”需要有 dll 接口由 class“torch::nn::AdaptiveMaxPoolImpl<3,torch::ExpandingArrayWithOptionalElem<3,int64_t>,torch::nn::AdaptiveMaxPool3dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(217): message : 参见“torch::nn::AdaptiveMaxPoolOptions<torch::ExpandingArrayWithOptionalElem<3,int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(319): message : 查看对正在编译的 类 模板 实例化“torch::nn::AdaptiveMaxPoolImpl<3,torch::ExpandingArrayWithOptionalElem<3,int64_t>,torch::nn::AdaptiveMaxPool3dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(357,1): warning C4251: “torch::nn::AdaptiveAvgPoolImpl<D,output_size_t,Derived>::options”: struct“torch::nn::AdaptiveAvgPoolOptions<output_size_t>”需要有 dll 接口由 class“torch::nn::AdaptiveAvgPoolImpl<D,output_size_t,Derived>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(346): message : 参见“torch::nn::AdaptiveAvgPoolOptions<output_size_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(358): message : 查看对正在编译的 类 模板 实例化“torch::nn::AdaptiveAvgPoolImpl<D,output_size_t,Derived>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(357,1): warning C4251: “torch::nn::AdaptiveAvgPoolImpl<1,torch::ExpandingArray<1,int64_t>,torch::nn::AdaptiveAvgPool1dImpl>::options”: struct“torch::nn::AdaptiveAvgPoolOptions<torch::ExpandingArray<1,int64_t>>”需要有 dll 接口由 class“torch::nn::AdaptiveAvgPoolImpl<1,torch::ExpandingArray<1,int64_t>,torch::nn::AdaptiveAvgPool1dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(270): message : 参见“torch::nn::AdaptiveAvgPoolOptions<torch::ExpandingArray<1,int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(374): message : 查看对正在编译的 类 模板 实例化“torch::nn::AdaptiveAvgPoolImpl<1,torch::ExpandingArray<1,int64_t>,torch::nn::AdaptiveAvgPool1dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(357,1): warning C4251: “torch::nn::AdaptiveAvgPoolImpl<2,torch::ExpandingArrayWithOptionalElem<2,int64_t>,torch::nn::AdaptiveAvgPool2dImpl>::options”: struct“torch::nn::AdaptiveAvgPoolOptions<torch::ExpandingArrayWithOptionalElem<2,int64_t>>”需要有 dll 接口由 class“torch::nn::AdaptiveAvgPoolImpl<2,torch::ExpandingArrayWithOptionalElem<2,int64_t>,torch::nn::AdaptiveAvgPool2dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(278): message : 参见“torch::nn::AdaptiveAvgPoolOptions<torch::ExpandingArrayWithOptionalElem<2,int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(402): message : 查看对正在编译的 类 模板 实例化“torch::nn::AdaptiveAvgPoolImpl<2,torch::ExpandingArrayWithOptionalElem<2,int64_t>,torch::nn::AdaptiveAvgPool2dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(357,1): warning C4251: “torch::nn::AdaptiveAvgPoolImpl<3,torch::ExpandingArrayWithOptionalElem<3,int64_t>,torch::nn::AdaptiveAvgPool3dImpl>::options”: struct“torch::nn::AdaptiveAvgPoolOptions<torch::ExpandingArrayWithOptionalElem<3,int64_t>>”需要有 dll 接口由 class“torch::nn::AdaptiveAvgPoolImpl<3,torch::ExpandingArrayWithOptionalElem<3,int64_t>,torch::nn::AdaptiveAvgPool3dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(286): message : 参见“torch::nn::AdaptiveAvgPoolOptions<torch::ExpandingArrayWithOptionalElem<3,int64_t>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(430): message : 查看对正在编译的 类 模板 实例化“torch::nn::AdaptiveAvgPoolImpl<3,torch::ExpandingArrayWithOptionalElem<3,int64_t>,torch::nn::AdaptiveAvgPool3dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(460,1): warning C4251: “torch::nn::MaxUnpoolImpl<1,torch::nn::MaxUnpool1dImpl>::options”: struct“torch::nn::MaxUnpoolOptions<1>”需要有 dll 接口由 class“torch::nn::MaxUnpoolImpl<1,torch::nn::MaxUnpool1dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(354): message : 参见“torch::nn::MaxUnpoolOptions<1>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(476): message : 查看对正在编译的 类 模板 实例化“torch::nn::MaxUnpoolImpl<1,torch::nn::MaxUnpool1dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(460,1): warning C4251: “torch::nn::MaxUnpoolImpl<2,torch::nn::MaxUnpool2dImpl>::options”: struct“torch::nn::MaxUnpoolOptions<2>”需要有 dll 接口由 class“torch::nn::MaxUnpoolImpl<2,torch::nn::MaxUnpool2dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(362): message : 参见“torch::nn::MaxUnpoolOptions<2>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(505): message : 查看对正在编译的 类 模板 实例化“torch::nn::MaxUnpoolImpl<2,torch::nn::MaxUnpool2dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(460,1): warning C4251: “torch::nn::MaxUnpoolImpl<3,torch::nn::MaxUnpool3dImpl>::options”: struct“torch::nn::MaxUnpoolOptions<3>”需要有 dll 接口由 class“torch::nn::MaxUnpoolImpl<3,torch::nn::MaxUnpool3dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(370): message : 参见“torch::nn::MaxUnpoolOptions<3>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(534): message : 查看对正在编译的 类 模板 实例化“torch::nn::MaxUnpoolImpl<3,torch::nn::MaxUnpool3dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(581,37): warning C4251: “torch::nn::FractionalMaxPool2dImpl::options”: struct“torch::nn::FractionalMaxPoolOptions<2>”需要有 dll 接口由 class“torch::nn::FractionalMaxPool2dImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(452): message : 参见“torch::nn::FractionalMaxPoolOptions<2>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(624,37): warning C4251: “torch::nn::FractionalMaxPool3dImpl::options”: struct“torch::nn::FractionalMaxPoolOptions<3>”需要有 dll 接口由 class“torch::nn::FractionalMaxPool3dImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(460): message : 参见“torch::nn::FractionalMaxPoolOptions<3>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(651,1): warning C4251: “torch::nn::LPPoolImpl<1,torch::nn::LPPool1dImpl>::options”: struct“torch::nn::LPPoolOptions<1>”需要有 dll 接口由 class“torch::nn::LPPoolImpl<1,torch::nn::LPPool1dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(510): message : 参见“torch::nn::LPPoolOptions<1>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(667): message : 查看对正在编译的 类 模板 实例化“torch::nn::LPPoolImpl<1,torch::nn::LPPool1dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(651,1): warning C4251: “torch::nn::LPPoolImpl<2,torch::nn::LPPool2dImpl>::options”: struct“torch::nn::LPPoolOptions<2>”需要有 dll 接口由 class“torch::nn::LPPoolImpl<2,torch::nn::LPPool2dImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\pooling.h(518): message : 参见“torch::nn::LPPoolOptions<2>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\pooling.h(695): message : 查看对正在编译的 类 模板 实例化“torch::nn::LPPoolImpl<2,torch::nn::LPPool2dImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\rnn.h(23,43): warning C4251: “torch::nn::detail::RNNOptionsBase::mode_”: class“c10::variant<torch::enumtype::kLSTM,torch::enumtype::kGRU,torch::enumtype::kRNN_TANH,torch::enumtype::kRNN_RELU>”需要有 dll 接口由 struct“torch::nn::detail::RNNOptionsBase”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\rnn.h(15): message : 参见“c10::variant<torch::enumtype::kLSTM,torch::enumtype::kGRU,torch::enumtype::kRNN_TANH,torch::enumtype::kRNN_RELU>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\rnn.h(66,43): warning C4251: “torch::nn::RNNOptions::nonlinearity_”: class“c10::variant<torch::enumtype::kTanh,torch::enumtype::kReLU>”需要有 dll 接口由 struct“torch::nn::RNNOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\rnn.h(52): message : 参见“c10::variant<torch::enumtype::kTanh,torch::enumtype::kReLU>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\rnn.h(179,43): warning C4251: “torch::nn::RNNCellOptions::nonlinearity_”: class“c10::variant<torch::enumtype::kTanh,torch::enumtype::kReLU>”需要有 dll 接口由 struct“torch::nn::RNNCellOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\rnn.h(52): message : 参见“c10::variant<torch::enumtype::kTanh,torch::enumtype::kReLU>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(80,1): warning C4251: “torch::nn::detail::RNNImplBase<Derived>::flat_weights_names_”: class“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<Derived>”的客户端使用
+E:\opencv\build\include\opencv2\core\persistence.hpp(417): message : 参见“std::vector<cv::String,std::allocator<cv::String>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(83): message : 查看对正在编译的 类 模板 实例化“torch::nn::detail::RNNImplBase<Derived>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(81,1): warning C4251: “torch::nn::detail::RNNImplBase<Derived>::all_weights_”: class“std::vector<std::vector<cv::String,std::allocator<cv::String>>,std::allocator<std::vector<cv::String,std::allocator<cv::String>>>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<Derived>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(81): message : 参见“std::vector<std::vector<cv::String,std::allocator<cv::String>>,std::allocator<std::vector<cv::String,std::allocator<cv::String>>>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(82,1): warning C4251: “torch::nn::detail::RNNImplBase<Derived>::flat_weights_”: class“std::vector<at::Tensor,std::allocator<at::Tensor>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<Derived>”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(644): message : 参见“std::vector<at::Tensor,std::allocator<at::Tensor>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(80,1): warning C4251: “torch::nn::detail::RNNImplBase<torch::nn::RNNImpl>::flat_weights_names_”: class“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<torch::nn::RNNImpl>”的客户端使用
+E:\opencv\build\include\opencv2\core\persistence.hpp(417): message : 参见“std::vector<cv::String,std::allocator<cv::String>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(99): message : 查看对正在编译的 类 模板 实例化“torch::nn::detail::RNNImplBase<torch::nn::RNNImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(81,1): warning C4251: “torch::nn::detail::RNNImplBase<torch::nn::RNNImpl>::all_weights_”: class“std::vector<std::vector<cv::String,std::allocator<cv::String>>,std::allocator<std::vector<cv::String,std::allocator<cv::String>>>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<torch::nn::RNNImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(81): message : 参见“std::vector<std::vector<cv::String,std::allocator<cv::String>>,std::allocator<std::vector<cv::String,std::allocator<cv::String>>>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(82,1): warning C4251: “torch::nn::detail::RNNImplBase<torch::nn::RNNImpl>::flat_weights_”: class“std::vector<at::Tensor,std::allocator<at::Tensor>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<torch::nn::RNNImpl>”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(644): message : 参见“std::vector<at::Tensor,std::allocator<at::Tensor>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(80,1): warning C4251: “torch::nn::detail::RNNImplBase<torch::nn::LSTMImpl>::flat_weights_names_”: class“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<torch::nn::LSTMImpl>”的客户端使用
+E:\opencv\build\include\opencv2\core\persistence.hpp(417): message : 参见“std::vector<cv::String,std::allocator<cv::String>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(143): message : 查看对正在编译的 类 模板 实例化“torch::nn::detail::RNNImplBase<torch::nn::LSTMImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(81,1): warning C4251: “torch::nn::detail::RNNImplBase<torch::nn::LSTMImpl>::all_weights_”: class“std::vector<std::vector<cv::String,std::allocator<cv::String>>,std::allocator<std::vector<cv::String,std::allocator<cv::String>>>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<torch::nn::LSTMImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(81): message : 参见“std::vector<std::vector<cv::String,std::allocator<cv::String>>,std::allocator<std::vector<cv::String,std::allocator<cv::String>>>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(82,1): warning C4251: “torch::nn::detail::RNNImplBase<torch::nn::LSTMImpl>::flat_weights_”: class“std::vector<at::Tensor,std::allocator<at::Tensor>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<torch::nn::LSTMImpl>”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(644): message : 参见“std::vector<at::Tensor,std::allocator<at::Tensor>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(80,1): warning C4251: “torch::nn::detail::RNNImplBase<torch::nn::GRUImpl>::flat_weights_names_”: class“std::vector<cv::String,std::allocator<cv::String>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<torch::nn::GRUImpl>”的客户端使用
+E:\opencv\build\include\opencv2\core\persistence.hpp(417): message : 参见“std::vector<cv::String,std::allocator<cv::String>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(193): message : 查看对正在编译的 类 模板 实例化“torch::nn::detail::RNNImplBase<torch::nn::GRUImpl>”的引用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(81,1): warning C4251: “torch::nn::detail::RNNImplBase<torch::nn::GRUImpl>::all_weights_”: class“std::vector<std::vector<cv::String,std::allocator<cv::String>>,std::allocator<std::vector<cv::String,std::allocator<cv::String>>>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<torch::nn::GRUImpl>”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(81): message : 参见“std::vector<std::vector<cv::String,std::allocator<cv::String>>,std::allocator<std::vector<cv::String,std::allocator<cv::String>>>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\rnn.h(82,1): warning C4251: “torch::nn::detail::RNNImplBase<torch::nn::GRUImpl>::flat_weights_”: class“std::vector<at::Tensor,std::allocator<at::Tensor>>”需要有 dll 接口由 class“torch::nn::detail::RNNImplBase<torch::nn::GRUImpl>”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(644): message : 参见“std::vector<at::Tensor,std::allocator<at::Tensor>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\activation.h(821,19): warning C4251: “torch::nn::MultiheadAttentionImpl::out_proj”: class“torch::nn::Linear”需要有 dll 接口由 class“torch::nn::MultiheadAttentionImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\linear.h(83): message : 参见“torch::nn::Linear”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformerlayer.h(36,39): warning C4251: “torch::nn::TransformerEncoderLayerOptions::activation_”: class“c10::variant<torch::enumtype::kReLU,torch::enumtype::kGELU>”需要有 dll 接口由 struct“torch::nn::TransformerEncoderLayerOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformerlayer.h(19): message : 参见“c10::variant<torch::enumtype::kReLU,torch::enumtype::kGELU>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformerlayer.h(67,39): warning C4251: “torch::nn::TransformerDecoderLayerOptions::activation_”: class“c10::variant<torch::enumtype::kReLU,torch::enumtype::kGELU>”需要有 dll 接口由 struct“torch::nn::TransformerDecoderLayerOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformerlayer.h(19): message : 参见“c10::variant<torch::enumtype::kReLU,torch::enumtype::kGELU>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(59,34): warning C4251: “torch::nn::TransformerEncoderLayerImpl::self_attn”: class“torch::nn::MultiheadAttention”需要有 dll 接口由 class“torch::nn::TransformerEncoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\activation.h(833): message : 参见“torch::nn::MultiheadAttention”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(62,20): warning C4251: “torch::nn::TransformerEncoderLayerImpl::linear1”: class“torch::nn::Linear”需要有 dll 接口由 class“torch::nn::TransformerEncoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\linear.h(83): message : 参见“torch::nn::Linear”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(65,21): warning C4251: “torch::nn::TransformerEncoderLayerImpl::dropout”: class“torch::nn::Dropout”需要有 dll 接口由 class“torch::nn::TransformerEncoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\dropout.h(69): message : 参见“torch::nn::Dropout”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(68,20): warning C4251: “torch::nn::TransformerEncoderLayerImpl::linear2”: class“torch::nn::Linear”需要有 dll 接口由 class“torch::nn::TransformerEncoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\linear.h(83): message : 参见“torch::nn::Linear”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(71,21): warning C4251: “torch::nn::TransformerEncoderLayerImpl::norm1”: class“torch::nn::LayerNorm”需要有 dll 接口由 class“torch::nn::TransformerEncoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\normalization.h(70): message : 参见“torch::nn::LayerNorm”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(73,21): warning C4251: “torch::nn::TransformerEncoderLayerImpl::norm2”: class“torch::nn::LayerNorm”需要有 dll 接口由 class“torch::nn::TransformerEncoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\normalization.h(70): message : 参见“torch::nn::LayerNorm”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(76,22): warning C4251: “torch::nn::TransformerEncoderLayerImpl::dropout1”: class“torch::nn::Dropout”需要有 dll 接口由 class“torch::nn::TransformerEncoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\dropout.h(69): message : 参见“torch::nn::Dropout”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(78,22): warning C4251: “torch::nn::TransformerEncoderLayerImpl::dropout2”: class“torch::nn::Dropout”需要有 dll 接口由 class“torch::nn::TransformerEncoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\dropout.h(69): message : 参见“torch::nn::Dropout”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(136,31): warning C4251: “torch::nn::TransformerDecoderLayerImpl::self_attn”: class“torch::nn::MultiheadAttention”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\activation.h(833): message : 参见“torch::nn::MultiheadAttention”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(139,19): warning C4251: “torch::nn::TransformerDecoderLayerImpl::dropout1”: class“torch::nn::Dropout”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\dropout.h(69): message : 参见“torch::nn::Dropout”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(142,18): warning C4251: “torch::nn::TransformerDecoderLayerImpl::norm1”: class“torch::nn::LayerNorm”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\normalization.h(70): message : 参见“torch::nn::LayerNorm”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(145,36): warning C4251: “torch::nn::TransformerDecoderLayerImpl::multihead_attn”: class“torch::nn::MultiheadAttention”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\activation.h(833): message : 参见“torch::nn::MultiheadAttention”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(148,19): warning C4251: “torch::nn::TransformerDecoderLayerImpl::dropout2”: class“torch::nn::Dropout”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\dropout.h(69): message : 参见“torch::nn::Dropout”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(151,18): warning C4251: “torch::nn::TransformerDecoderLayerImpl::norm2”: class“torch::nn::LayerNorm”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\normalization.h(70): message : 参见“torch::nn::LayerNorm”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(154,17): warning C4251: “torch::nn::TransformerDecoderLayerImpl::linear1”: class“torch::nn::Linear”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\linear.h(83): message : 参见“torch::nn::Linear”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(157,18): warning C4251: “torch::nn::TransformerDecoderLayerImpl::dropout”: class“torch::nn::Dropout”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\dropout.h(69): message : 参见“torch::nn::Dropout”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(160,17): warning C4251: “torch::nn::TransformerDecoderLayerImpl::linear2”: class“torch::nn::Linear”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\linear.h(83): message : 参见“torch::nn::Linear”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(163,19): warning C4251: “torch::nn::TransformerDecoderLayerImpl::dropout3”: class“torch::nn::Dropout”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\dropout.h(69): message : 参见“torch::nn::Dropout”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(166,18): warning C4251: “torch::nn::TransformerDecoderLayerImpl::norm3”: class“torch::nn::LayerNorm”需要有 dll 接口由 class“torch::nn::TransformerDecoderLayerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\normalization.h(70): message : 参见“torch::nn::LayerNorm”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformercoder.h(28,55): warning C4251: “torch::nn::TransformerEncoderOptions::encoder_layer_”: class“torch::nn::TransformerEncoderLayer”需要有 dll 接口由 struct“torch::nn::TransformerEncoderOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(87): message : 参见“torch::nn::TransformerEncoderLayer”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformercoder.h(34,31): warning C4251: “torch::nn::TransformerEncoderOptions::norm_”: class“torch::nn::AnyModule”需要有 dll 接口由 struct“torch::nn::TransformerEncoderOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\any.h(110): message : 参见“torch::nn::AnyModule”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformercoder.h(57,53): warning C4251: “torch::nn::TransformerDecoderOptions::decoder_layer_”: class“torch::nn::TransformerDecoderLayer”需要有 dll 接口由 struct“torch::nn::TransformerDecoderOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformerlayer.h(185): message : 参见“torch::nn::TransformerDecoderLayer”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformercoder.h(63,29): warning C4251: “torch::nn::TransformerDecoderOptions::norm_”: class“torch::nn::AnyModule”需要有 dll 接口由 struct“torch::nn::TransformerDecoderOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\any.h(110): message : 参见“torch::nn::AnyModule”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformercoder.h(56,23): warning C4251: “torch::nn::TransformerEncoderImpl::layers”: class“torch::nn::ModuleList”需要有 dll 接口由 class“torch::nn::TransformerEncoderImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\modulelist.h(253): message : 参见“torch::nn::ModuleList”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformercoder.h(59,19): warning C4251: “torch::nn::TransformerEncoderImpl::norm”: class“torch::nn::AnyModule”需要有 dll 接口由 class“torch::nn::TransformerEncoderImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\any.h(110): message : 参见“torch::nn::AnyModule”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformercoder.h(118,22): warning C4251: “torch::nn::TransformerDecoderImpl::layers”: class“torch::nn::ModuleList”需要有 dll 接口由 class“torch::nn::TransformerDecoderImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\modulelist.h(253): message : 参见“torch::nn::ModuleList”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformercoder.h(121,19): warning C4251: “torch::nn::TransformerDecoderImpl::norm”: class“torch::nn::AnyModule”需要有 dll 接口由 class“torch::nn::TransformerDecoderImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\any.h(110): message : 参见“torch::nn::AnyModule”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformer.h(50,39): warning C4251: “torch::nn::TransformerOptions::activation_”: class“c10::variant<torch::enumtype::kReLU,torch::enumtype::kGELU>”需要有 dll 接口由 struct“torch::nn::TransformerOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformerlayer.h(19): message : 参见“c10::variant<torch::enumtype::kReLU,torch::enumtype::kGELU>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformer.h(53,39): warning C4251: “torch::nn::TransformerOptions::custom_encoder_”: class“torch::nn::AnyModule”需要有 dll 接口由 struct“torch::nn::TransformerOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\any.h(110): message : 参见“torch::nn::AnyModule”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\options\transformer.h(56,39): warning C4251: “torch::nn::TransformerOptions::custom_decoder_”: class“torch::nn::AnyModule”需要有 dll 接口由 struct“torch::nn::TransformerOptions”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\any.h(110): message : 参见“torch::nn::AnyModule”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformer.h(125,22): warning C4251: “torch::nn::TransformerImpl::encoder”: class“torch::nn::AnyModule”需要有 dll 接口由 class“torch::nn::TransformerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\any.h(110): message : 参见“torch::nn::AnyModule”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\transformer.h(128,22): warning C4251: “torch::nn::TransformerImpl::decoder”: class“torch::nn::AnyModule”需要有 dll 接口由 class“torch::nn::TransformerImpl”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\nn\modules\container\any.h(110): message : 参见“torch::nn::AnyModule”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\optimizer.h(80,30): warning C4251: “torch::optim::OptimizerParamGroup::params_”: class“std::vector<at::Tensor,std::allocator<at::Tensor>>”需要有 dll 接口由 class“torch::optim::OptimizerParamGroup”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(644): message : 参见“std::vector<at::Tensor,std::allocator<at::Tensor>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\optimizer.h(81,45): warning C4251: “torch::optim::OptimizerParamGroup::options_”: class“std::unique_ptr<torch::optim::OptimizerOptions,std::default_delete<torch::optim::OptimizerOptions>>”需要有 dll 接口由 class“torch::optim::OptimizerParamGroup”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\optim\optimizer.h(51): message : 参见“std::unique_ptr<torch::optim::OptimizerOptions,std::default_delete<torch::optim::OptimizerOptions>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\optimizer.h(147,50): warning C4251: “torch::optim::Optimizer::param_groups_”: class“std::vector<torch::optim::OptimizerParamGroup,std::allocator<torch::optim::OptimizerParamGroup>>”需要有 dll 接口由 class“torch::optim::Optimizer”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\optim\optimizer.h(91): message : 参见“std::vector<torch::optim::OptimizerParamGroup,std::allocator<torch::optim::OptimizerParamGroup>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\optimizer.h(148,80): warning C4251: “torch::optim::Optimizer::state_”: class“ska::flat_hash_map<std::string,std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<K,V>>>”需要有 dll 接口由 class“torch::optim::Optimizer”的客户端使用
+          with
+          [
+              K=std::string,
+              V=std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\optim\optimizer.h(135): message : 参见“ska::flat_hash_map<std::string,std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::pair<K,V>>>”的声明
+          with
+          [
+              K=std::string,
+              V=std::unique_ptr<torch::optim::OptimizerParamState,std::default_delete<torch::optim::OptimizerParamState>>
+          ]
+E:\libtorch\include\torch\csrc\api\include\torch\optim\optimizer.h(149,47): warning C4251: “torch::optim::Optimizer::defaults_”: class“std::unique_ptr<torch::optim::OptimizerOptions,std::default_delete<torch::optim::OptimizerOptions>>”需要有 dll 接口由 class“torch::optim::Optimizer”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\optim\optimizer.h(51): message : 参见“std::unique_ptr<torch::optim::OptimizerOptions,std::default_delete<torch::optim::OptimizerOptions>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\adam.h(25,29): warning C4251: “torch::optim::AdamOptions::betas_”: class“std::tuple<double,double>”需要有 dll 接口由 struct“torch::optim::AdamOptions”的客户端使用
+E:\libtorch\include\ATen\NativeFunctions.h(1183): message : 参见“std::tuple<double,double>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\adamw.h(25,29): warning C4251: “torch::optim::AdamWOptions::betas_”: class“std::tuple<double,double>”需要有 dll 接口由 struct“torch::optim::AdamWOptions”的客户端使用
+E:\libtorch\include\ATen\NativeFunctions.h(1183): message : 参见“std::tuple<double,double>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(21,47): warning C4251: “torch::optim::LBFGSOptions::max_eval_”: class“c10::optional<int64_t>”需要有 dll 接口由 struct“torch::optim::LBFGSOptions”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(600): message : 参见“c10::optional<int64_t>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(25,57): warning C4251: “torch::optim::LBFGSOptions::line_search_fn_”: class“c10::optional<std::string>”需要有 dll 接口由 struct“torch::optim::LBFGSOptions”的客户端使用
+E:\libtorch\include\ATen\NativeFunctions.h(2110): message : 参见“c10::optional<std::string>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(41,42): warning C4251: “torch::optim::LBFGSParamState::old_dirs_”: class“std::deque<at::Tensor,std::allocator<at::Tensor>>”需要有 dll 接口由 struct“torch::optim::LBFGSParamState”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(41): message : 参见“std::deque<at::Tensor,std::allocator<at::Tensor>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(42,42): warning C4251: “torch::optim::LBFGSParamState::old_stps_”: class“std::deque<at::Tensor,std::allocator<at::Tensor>>”需要有 dll 接口由 struct“torch::optim::LBFGSParamState”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(41): message : 参见“std::deque<at::Tensor,std::allocator<at::Tensor>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(43,36): warning C4251: “torch::optim::LBFGSParamState::ro_”: class“std::deque<at::Tensor,std::allocator<at::Tensor>>”需要有 dll 接口由 struct“torch::optim::LBFGSParamState”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(41): message : 参见“std::deque<at::Tensor,std::allocator<at::Tensor>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(44,53): warning C4251: “torch::optim::LBFGSParamState::al_”: class“c10::optional<std::vector<at::Tensor,std::allocator<at::Tensor>>>”需要有 dll 接口由 struct“torch::optim::LBFGSParamState”的客户端使用
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(44): message : 参见“c10::optional<std::vector<at::Tensor,std::allocator<at::Tensor>>>”的声明
+E:\libtorch\include\torch\csrc\api\include\torch\optim\lbfgs.h(74,38): warning C4251: “torch::optim::LBFGS::_numel_cache”: class“c10::optional<int64_t>”需要有 dll 接口由 class“torch::optim::LBFGS”的客户端使用
+E:\libtorch\include\ATen\core\TensorBody.h(600): message : 参见“c10::optional<int64_t>”的声明
+G:\newdetect\newdetect\main.cpp(11,26): warning C4018: “<”: 有符号/无符号不匹配
+G:\newdetect\newdetect\main.cpp(54,34): warning C4018: “<”: 有符号/无符号不匹配
+G:\newdetect\newdetect\main.cpp(174,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\newdetect\newdetect\main.cpp(233,31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+G:\newdetect\newdetect\main.cpp(284,74): warning C4305: “参数”: 从“double”到“float”截断
+G:\newdetect\newdetect\main.cpp(289,30): warning C4018: “<”: 有符号/无符号不匹配
+G:\newdetect\newdetect\main.cpp(299,83): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+G:\newdetect\newdetect\main.cpp(299,66): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+G:\newdetect\newdetect\main.cpp(299,54): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+G:\newdetect\newdetect\main.cpp(299,48): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+G:\newdetect\newdetect\main.cpp(306,33): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+G:\newdetect\newdetect\main.cpp(306,27): warning C4244: “参数”: 从“float”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+E:\libtorch\include\c10\util\Optional.h(347,1): warning C4267: “参数”: 从“size_t”转换到“T”，可能丢失数据
+          with
+          [
+              T=int32_t
+          ]
+E:\libtorch\include\ATen\core\function_schema.h(251): message : 查看对正在编译的函数 模板 实例化“c10::optional<int32_t>::optional<size_t,false>(U &&)”的引用
+          with
+          [
+              U=size_t
+          ]
+E:\libtorch\include\ATen\core\function_schema.h(251): message : 查看对正在编译的函数 模板 实例化“c10::optional<int32_t>::optional<size_t,false>(U &&)”的引用
+          with
+          [
+              U=size_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: “参数”: 从“src_t”转换到“float”，可能丢失数据
+          with
+          [
+              src_t=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(37): message : 在编译 类 模板 成员函数“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”时
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=int64_t,
+              src_t=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的函数 模板 实例化“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”的引用
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=int64_t,
+              src_t=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的 类 模板 实例化“c10::static_cast_with_inter_type<To,From>”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(169): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+E:\libtorch\include\c10\core\Scalar.h(63): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<c10::BFloat16,int64_t>(From,const char *)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: “参数”: 从“T”转换到“float”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(37): message : 在编译 类 模板 成员函数“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”时
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=c10::complex<double>,
+              src_t=c10::complex<double>
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的函数 模板 实例化“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”的引用
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=c10::complex<double>,
+              src_t=c10::complex<double>
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的 类 模板 实例化“c10::static_cast_with_inter_type<To,From>”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=c10::complex<double>
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(169): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=c10::complex<double>
+          ]
+E:\libtorch\include\c10\core\Scalar.h(63): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<c10::BFloat16,c10::complex<double>>(From,const char *)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=c10::complex<double>
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: “参数”: 从“src_t”转换到“float”，可能丢失数据
+          with
+          [
+              src_t=double
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(37): message : 在编译 类 模板 成员函数“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”时
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=double,
+              src_t=double
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的函数 模板 实例化“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”的引用
+          with
+          [
+              dest_t=c10::BFloat16,
+              From=double,
+              src_t=double
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的 类 模板 实例化“c10::static_cast_with_inter_type<To,From>”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(169): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+E:\libtorch\include\c10\core\Scalar.h(63): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<c10::BFloat16,double>(From,const char *)”的引用
+          with
+          [
+              To=c10::BFloat16,
+              From=double
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: “参数”: 从“src_t”转换到“const T”，可能丢失数据
+          with
+          [
+              src_t=int64_t
+          ]
+          and
+          [
+              T=double
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(37): message : 在编译 类 模板 成员函数“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”时
+          with
+          [
+              dest_t=c10::complex<double>,
+              From=int64_t,
+              src_t=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的函数 模板 实例化“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”的引用
+          with
+          [
+              dest_t=c10::complex<double>,
+              From=int64_t,
+              src_t=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的 类 模板 实例化“c10::static_cast_with_inter_type<To,From>”的引用
+          with
+          [
+              To=c10::complex<double>,
+              From=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(169): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=c10::complex<double>,
+              From=int64_t
+          ]
+E:\libtorch\include\c10\core\Scalar.h(63): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<c10::complex<double>,int64_t>(From,const char *)”的引用
+          with
+          [
+              To=c10::complex<double>,
+              From=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: “参数”: 从“src_t”转换到“const T”，可能丢失数据
+          with
+          [
+              src_t=int64_t
+          ]
+          and
+          [
+              T=float
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(37): message : 在编译 类 模板 成员函数“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”时
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=int64_t,
+              src_t=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的函数 模板 实例化“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”的引用
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=int64_t,
+              src_t=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的 类 模板 实例化“c10::static_cast_with_inter_type<To,From>”的引用
+          with
+          [
+              To=c10::complex<float>,
+              From=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(169): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=c10::complex<float>,
+              From=int64_t
+          ]
+E:\libtorch\include\c10\core\Scalar.h(63): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<c10::complex<float>,int64_t>(From,const char *)”的引用
+          with
+          [
+              To=c10::complex<float>,
+              From=int64_t
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(39,62): warning C4244: “参数”: 从“src_t”转换到“const T”，可能丢失数据
+          with
+          [
+              src_t=double
+          ]
+          and
+          [
+              T=float
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(37): message : 在编译 类 模板 成员函数“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”时
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=double,
+              src_t=double
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的函数 模板 实例化“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”的引用
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=double,
+              src_t=double
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的 类 模板 实例化“c10::static_cast_with_inter_type<To,From>”的引用
+          with
+          [
+              To=c10::complex<float>,
+              From=double
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(169): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=c10::complex<float>,
+              From=double
+          ]
+E:\libtorch\include\c10\core\Scalar.h(63): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<c10::complex<float>,double>(From,const char *)”的引用
+          with
+          [
+              To=c10::complex<float>,
+              From=double
+          ]
+E:\libtorch\include\c10\util\complex.h(147,10): warning C4244: “初始化”: 从“const T”转换到“T”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=float
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(39): message : 查看对正在编译的函数 模板 实例化“c10::complex<float>::complex<T>(const c10::complex<double> &)”的引用
+          with
+          [
+              T=float
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(39): message : 查看对正在编译的函数 模板 实例化“c10::complex<float>::complex<T>(const c10::complex<double> &)”的引用
+          with
+          [
+              T=float
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(37): message : 在编译 类 模板 成员函数“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”时
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=c10::complex<double>,
+              src_t=c10::complex<double>
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的函数 模板 实例化“dest_t c10::static_cast_with_inter_type<dest_t,From>::apply(src_t)”的引用
+          with
+          [
+              dest_t=c10::complex<float>,
+              From=c10::complex<double>,
+              src_t=c10::complex<double>
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(157): message : 查看对正在编译的 类 模板 实例化“c10::static_cast_with_inter_type<To,From>”的引用
+          with
+          [
+              To=c10::complex<float>,
+              From=c10::complex<double>
+          ]
+E:\libtorch\include\c10\util\TypeCast.h(169): message : 查看对正在编译的函数 模板 实例化“To c10::convert<To,From>(From)”的引用
+          with
+          [
+              To=c10::complex<float>,
+              From=c10::complex<double>
+          ]
+E:\libtorch\include\c10\core\Scalar.h(63): message : 查看对正在编译的函数 模板 实例化“To c10::checked_convert<c10::complex<float>,c10::complex<double>>(From,const char *)”的引用
+          with
+          [
+              To=c10::complex<float>,
+              From=c10::complex<double>
+          ]
+E:\libtorch\include\c10\util\complex.h(147,1): warning C4244: “初始化”: 从“const T”转换到“T”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=float
+          ]
+    正在创建库 G:\newdetect\x64\Release\newdetect.lib 和对象 G:\newdetect\x64\Release\newdetect.exp
+  正在生成代码
+  1 of 1158 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  newdetect.vcxproj -> G:\newdetect\x64\Release\newdetect.exe
